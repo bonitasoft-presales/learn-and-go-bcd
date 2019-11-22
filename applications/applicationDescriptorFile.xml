@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
+    <application token="providers" version="1.0" profile="User" homePage="providerMain" state="ACTIVATED" layout="custompage_BonitaLayoutV1" theme="custompage_themeBonita">
+        <displayName>Providers</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_providerDetailsEdit" token="providerDetails"/>
+            <applicationPage customPage="custompage_providerMain" token="providerMain"/>
+            <applicationPage customPage="custompage_tasklist" token="tasks"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="providerMain">
+                <displayName>Main Providers</displayName>
+            </applicationMenu>
+            <applicationMenu applicationPage="tasks">
+                <displayName>My Tasks</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+</applications>

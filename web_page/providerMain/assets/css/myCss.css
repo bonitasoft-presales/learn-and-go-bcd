@@ -1,0 +1,46 @@
+.blueBox {
+    border: 1px solid grey;
+    padding: 10px;
+    box-shadow: 2px 4px #e6e6ff;
+}
+
+.blueShadow {
+    padding: 10px;
+    box-shadow: 2px 4px #e6e6ff;
+}
+
+.blueGradBox {
+    padding: 10px;
+    box-shadow: 0 1px 4px rgba(18, 81, 181, 0.3), 0 0 40px rgba(18, 81, 181, 0.1) inset;
+
+}
+
+.blueRightSeparator {
+    border: 2px solid transparent;
+    border-right-color: 	#3F51B5;
+
+}
+
+.blueGradBox {
+    padding: 10px;
+    box-shadow: 0 1px 4px rgba(18, 81, 181, 0.3), 0 0 40px rgba(18, 81, 181, 0.1) inset;
+
+}
+
+.blueBottomSeparator {
+    border: 2px solid transparent;
+    border-bottom-color: 	#3F51B5;
+
+}
+
+.buttonPadding {
+    padding: 10px;
+
+}
+
+.fixedFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;  
+}

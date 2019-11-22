@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel modelVersion="1.0" productVersion="7.8.3">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.Contact">
+            <description>Provider's contact description</description>
+            <fields>
+                <field type="INTEGER" length="255" name="pkid" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="fonction" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="title" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="surname" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="firstname" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="contactType" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="phone" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="mobile" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="email" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Contract">
+            <description>Provider's contracts</description>
+            <fields>
+                <field type="INTEGER" length="255" name="pkid" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="filePath" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="idCreator" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="dateCreation" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="idEditor" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="dateEdit" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="contractName" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="contractDate" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="contractAmount" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints>
+                <uniqueConstraint name="uniquePKID">
+                    <fieldNames>
+                        <fieldName>pkid</fieldName>
+                    </fieldNames>
+                </uniqueConstraint>
+            </uniqueConstraints>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.BankAccountDetails">
+            <description>Provider's bank account details</description>
+            <fields>
+                <field type="INTEGER" length="255" name="pkid" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="filePath" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="idCreator" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="dateCreation" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="idEditor" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="dateEdit" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="bankName" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="accountNumber" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="bankSwift" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="accountName" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints>
+                <uniqueConstraint name="uniquePKID">
+                    <fieldNames>
+                        <fieldName>pkid</fieldName>
+                    </fieldNames>
+                </uniqueConstraint>
+            </uniqueConstraints>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Provider">
+            <fields>
+                <field type="LONG" length="255" name="pkid" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="name" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="alias" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="provType" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="provPriority" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="address1" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="address2" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="city" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="country" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="telephone" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="fax" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="email" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="currency" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isExtranetAllowed" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="paymentDelay" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="loginExtranet" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="auxAccount" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="analyticAccount" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isActive" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="idCreator" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="dateCreation" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="idAccountEdit" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="dateAcountEdit" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="idProdEditor" nullable="true" collection="false"/>
+                <field type="LOCALDATETIME" length="255" name="dateProdEdit" nullable="true" collection="false"/>
+                <relationField type="COMPOSITION" reference="com.company.model.BankAccountDetails" fetchType="EAGER" name="bankAccountDetails" nullable="true" collection="false"/>
+                <relationField type="COMPOSITION" reference="com.company.model.Contact" fetchType="EAGER" name="contact" nullable="true" collection="true"/>
+                <relationField type="COMPOSITION" reference="com.company.model.Contract" fetchType="EAGER" name="contract" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="accCheck" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="itCheck" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints>
+                <uniqueConstraint name="uniquePKID">
+                    <fieldNames>
+                        <fieldName>pkid</fieldName>
+                    </fieldNames>
+                </uniqueConstraint>
+            </uniqueConstraints>
+            <queries>
+                <query name="autocompSearch" content="SELECT p &#xA;FROM Provider p &#xA;WHERE concat(p.name , ' - ', p.city ,' ', p.country) =  :qParam&#xA;ORDER BY p.persistenceId ASC" returnType="java.util.List">
+                    <queryParameters>
+                        <queryParameter name="qParam" className="java.lang.String"/>
+                    </queryParameters>
+                </query>
+            </queries>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>

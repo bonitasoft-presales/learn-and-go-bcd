@@ -1,0 +1,122 @@
+{
+  "designerVersion" : "1.9.24",
+  "previousDesignerVersion" : "1.8.39",
+  "id" : "providerDetails",
+  "name" : "providerDetails",
+  "lastUpdate" : 1562678077238,
+  "rows" : [ [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "text" : {
+        "type" : "interpolation",
+        "value" : "Provider details"
+      },
+      "level" : {
+        "type" : "constant",
+        "value" : "Level 2"
+      },
+      "alignment" : {
+        "type" : "constant",
+        "value" : "left"
+      }
+    },
+    "reference" : "13a79a95-13cf-4c9e-b002-798bfa5463af",
+    "hasValidationError" : false,
+    "id" : "pbTitle"
+  } ], [ {
+    "type" : "fragment",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      }
+    },
+    "reference" : "4dfb2fc7-1358-4b19-a047-d57dd6f23309",
+    "hasValidationError" : false,
+    "id" : "providerCheck",
+    "binding" : {
+      "provider" : "selectedProvider[0]",
+      "label_IT_check" : "'Account Created' | UiTranslate",
+      "label_extranet" : ""
+    }
+  } ], [ {
+    "type" : "fragment",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      }
+    },
+    "reference" : "a13a4fd6-4e3e-4385-be91-d53490668706",
+    "hasValidationError" : false,
+    "id" : "providerDetailsRW",
+    "binding" : {
+      "provider" : "selectedProvider[0]"
+    }
+  } ] ],
+  "assets" : [ {
+    "id" : "1055ad37-f92d-4498-8a70-cc274595d0a3",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 0,
+    "external" : false
+  }, {
+    "id" : "ee122398-a480-4e84-9751-d4f95325fd7d",
+    "name" : "localization.json",
+    "type" : "json",
+    "order" : 0,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "id" : {
+      "type" : "urlparameter",
+      "value" : "pkid",
+      "exposed" : false
+    },
+    "selectedProvider" : {
+      "type" : "url",
+      "value" : "../API/bdm/businessData/com.company.model.Provider?q=findByPkid&p=0&c=100&f=pkid%3d{{id}}",
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "735488d8-e089-426b-8d52-df74409ea18d",
+  "type" : "page",
+  "description" : "Page generated with Bonita UI designer",
+  "displayName" : "providerDetails"
+}
