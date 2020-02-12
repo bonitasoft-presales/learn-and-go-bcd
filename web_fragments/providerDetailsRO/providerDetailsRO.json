@@ -1,2134 +1,2268 @@
 {
-  "designerVersion" : "1.9.24",
-  "previousDesignerVersion" : "1.8.39",
+  "designerVersion" : "1.10.18",
+  "previousDesignerVersion" : "1.9.24",
   "id" : "providerDetailsRO",
   "name" : "providerDetailsRO",
-  "lastUpdate" : 1562678077310,
-  "rows" : [ [ {
-    "type" : "component",
-    "dimension" : {
-      "md" : 4,
-      "sm" : 4,
-      "xs" : 6,
-      "lg" : 4
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "widgetId" : {
-        "type" : "constant",
-        "value" : "pbInput"
-      },
-      "isDisplayed" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 1
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Name"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "readonly" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "placeholder" : {
-        "type" : "constant"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "left"
-      },
-      "class" : {
-        "type" : "constant",
-        "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
-      },
-      "dimension" : {
-        "type" : "constant",
-        "value" : 12
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.name"
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "2fbdeabc-74b2-4294-8a5c-396ee6897e2b",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  }, {
-    "type" : "component",
-    "dimension" : {
-      "md" : 4,
-      "sm" : 4,
-      "xs" : 6,
-      "lg" : 4
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "widgetId" : {
-        "type" : "constant",
-        "value" : "pbInput"
-      },
-      "isDisplayed" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 1
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Alias"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "readonly" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "placeholder" : {
-        "type" : "constant"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "left"
-      },
-      "class" : {
-        "type" : "constant",
-        "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
-      },
-      "dimension" : {
-        "type" : "constant",
-        "value" : 12
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.alias"
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "c9224ade-8faa-479d-bbe2-cabbad358284",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  }, {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 6,
-      "sm" : 2,
-      "md" : 2,
-      "lg" : 2
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Type"
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 4
-      },
-      "placeholder" : {
-        "type" : "interpolation"
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.provType"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "fb2b54a7-88cc-49bf-8c8b-252d395d5aa6",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  }, {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 6,
-      "sm" : 2,
-      "md" : 2,
-      "lg" : 2
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Priority"
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 4
-      },
-      "placeholder" : {
-        "type" : "interpolation"
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.provPriority"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "6a07b029-ca35-4b40-9295-9bee21e9a615",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  } ], [ {
-    "type" : "component",
-    "dimension" : {
-      "md" : 8,
-      "sm" : 8,
-      "xs" : 12,
-      "lg" : 8
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "widgetId" : {
-        "type" : "constant",
-        "value" : "pbInput"
-      },
-      "isDisplayed" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 1
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Address"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "readonly" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "placeholder" : {
-        "type" : "constant"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "left"
-      },
-      "class" : {
-        "type" : "constant",
-        "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
-      },
-      "dimension" : {
-        "type" : "constant",
-        "value" : 12
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.address1"
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "03cec50b-4851-4a5c-9ff4-3bc51c096bdb",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  }, {
-    "type" : "component",
-    "dimension" : {
-      "md" : 2,
-      "sm" : 2,
-      "xs" : 6,
-      "lg" : 2
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "widgetId" : {
-        "type" : "constant",
-        "value" : "pbInput"
-      },
-      "isDisplayed" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 1
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "City"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "readonly" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "placeholder" : {
-        "type" : "constant"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "left"
-      },
-      "class" : {
-        "type" : "constant",
-        "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
-      },
-      "dimension" : {
-        "type" : "constant",
-        "value" : 12
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.city"
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "d73d8655-6895-4b32-a75b-73d8c7e509e0",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  }, {
-    "type" : "component",
-    "dimension" : {
-      "md" : 2,
-      "sm" : 2,
-      "xs" : 6,
-      "lg" : 2
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "widgetId" : {
-        "type" : "constant",
-        "value" : "pbInput"
-      },
-      "isDisplayed" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 1
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Country"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "readonly" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "placeholder" : {
-        "type" : "constant"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "left"
-      },
-      "class" : {
-        "type" : "constant",
-        "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
-      },
-      "dimension" : {
-        "type" : "constant",
-        "value" : 12
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.country"
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "41105aee-87c6-488a-8080-faee053d4d7c",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  } ], [ {
-    "type" : "component",
-    "dimension" : {
-      "md" : 8,
-      "sm" : 8,
-      "xs" : 6,
-      "lg" : 8
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "widgetId" : {
-        "type" : "constant",
-        "value" : "pbInput"
-      },
-      "isDisplayed" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 1
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Address Complement"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "readonly" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "placeholder" : {
-        "type" : "constant"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "left"
-      },
-      "class" : {
-        "type" : "constant",
-        "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
-      },
-      "dimension" : {
-        "type" : "constant",
-        "value" : 12
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.address2"
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "2ece532d-81af-4a17-9126-9399c669339f",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  }, {
-    "type" : "component",
-    "dimension" : {
-      "md" : 4,
-      "sm" : 4,
-      "xs" : 6,
-      "lg" : 4
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "widgetId" : {
-        "type" : "constant",
-        "value" : "pbInput"
-      },
-      "isDisplayed" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 1
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Email"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "email"
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "readonly" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "placeholder" : {
-        "type" : "constant"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "left"
-      },
-      "class" : {
-        "type" : "constant",
-        "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
-      },
-      "dimension" : {
-        "type" : "constant",
-        "value" : 12
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.email"
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "9dc51a60-44a9-4f2f-a9d8-f39a90cd7966",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  } ], [ {
-    "type" : "component",
-    "dimension" : {
-      "md" : 3,
-      "sm" : 3,
-      "xs" : 6,
-      "lg" : 3
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "widgetId" : {
-        "type" : "constant",
-        "value" : "pbInput"
-      },
-      "isDisplayed" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 1
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Telephone"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "readonly" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "placeholder" : {
-        "type" : "constant"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "left"
-      },
-      "class" : {
-        "type" : "constant",
-        "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
-      },
-      "dimension" : {
-        "type" : "constant",
-        "value" : 12
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.telephone"
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "30f8db7b-9974-4b18-bc94-fe1ea718d382",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  }, {
-    "type" : "component",
-    "dimension" : {
-      "md" : 3,
-      "sm" : 3,
-      "xs" : 6,
-      "lg" : 3
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "widgetId" : {
-        "type" : "constant",
-        "value" : "pbInput"
-      },
-      "isDisplayed" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 1
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Fax"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "readonly" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "placeholder" : {
-        "type" : "constant"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "left"
-      },
-      "class" : {
-        "type" : "constant",
-        "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
-      },
-      "dimension" : {
-        "type" : "constant",
-        "value" : 12
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.fax"
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "745447b4-a636-4780-9d10-e9618e3c918e",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  }, {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 6,
-      "sm" : 3,
-      "md" : 3,
-      "lg" : 3
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Currency"
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 4
-      },
-      "placeholder" : {
-        "type" : "interpolation"
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.currency"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "ca23fbef-ba1c-4e70-b84a-42db4359321a",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  }, {
-    "type" : "component",
-    "dimension" : {
-      "md" : 3,
-      "sm" : 3,
-      "xs" : 6,
-      "lg" : 3
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "widgetId" : {
-        "type" : "constant",
-        "value" : "pbInput"
-      },
-      "isDisplayed" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 1
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Payment Delay"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "number"
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "readonly" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "placeholder" : {
-        "type" : "constant"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "left"
-      },
-      "class" : {
-        "type" : "constant",
-        "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
-      },
-      "dimension" : {
-        "type" : "constant",
-        "value" : 12
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.paymentDelay"
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "641c09c1-637a-471f-ab55-bbe8d0176e3d",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  } ], [ {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 12,
-      "md" : 12,
-      "lg" : 12
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "text" : {
-        "type" : "interpolation",
-        "value" : "Accounts"
-      },
-      "level" : {
-        "type" : "constant",
-        "value" : "Level 4"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "left"
-      }
-    },
-    "reference" : "61a0f988-393a-41c6-b1d7-0df755018f88",
-    "hasValidationError" : false,
-    "id" : "pbTitle"
-  } ], [ {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 4,
-      "md" : 4,
-      "lg" : 4
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Extranet Account"
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 4
-      },
-      "placeholder" : {
-        "type" : "interpolation"
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.loginExtranet"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "4516ab6e-f4b0-4ec5-846f-640581f662c6",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  }, {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 6,
-      "sm" : 4,
-      "md" : 4,
-      "lg" : 4
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Aux Account"
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 4
-      },
-      "placeholder" : {
-        "type" : "interpolation"
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.auxAccount"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "c203a74b-a684-4bb4-95ad-febcc8052116",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  }, {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 6,
-      "sm" : 4,
-      "md" : 4,
-      "lg" : 4
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Analytic Account"
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 4
-      },
-      "placeholder" : {
-        "type" : "interpolation"
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.analyticAccount"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "b8c057d6-0219-4484-a3e8-c77748120663",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  } ], [ {
-    "type" : "tabsContainer",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 12,
-      "md" : 12,
-      "lg" : 12
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      }
-    },
-    "reference" : "dc0553a4-e9d3-4bb2-b911-0a16369f1b95",
-    "hasValidationError" : false,
-    "id" : "pbTabsContainer",
-    "tabs" : [ {
-      "container" : {
-        "type" : "container",
+  "lastUpdate" : 1581497156469,
+  "rows" : [
+    [
+      {
+        "type" : "component",
         "dimension" : {
-          "xs" : 12
+          "md" : 4,
+          "sm" : 4,
+          "xs" : 6,
+          "lg" : 4
         },
-        "propertyValues" : { },
-        "reference" : "268f29d8-131a-4b33-adef-71ce11869b27",
-        "hasValidationError" : false,
-        "id" : "pbContainer",
-        "rows" : [ [ {
-          "type" : "component",
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "widgetId" : {
+            "type" : "constant",
+            "value" : "pbInput"
+          },
+          "isDisplayed" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 1
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Name"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "readonly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "placeholder" : {
+            "type" : "constant"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
+          },
           "dimension" : {
-            "xs" : 12,
-            "sm" : 12,
-            "md" : 12,
-            "lg" : 12
+            "type" : "constant",
+            "value" : 12
           },
-          "propertyValues" : {
-            "cssClasses" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "hidden" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "headers" : {
-              "type" : "constant",
-              "value" : [ "Title", "First Name", "Last Name", "Fonction", "Type", "Phone", "Mobile", "eMail" ]
-            },
-            "content" : {
-              "type" : "expression",
-              "value" : "provider.contact"
-            },
-            "columnsKey" : {
-              "type" : "constant",
-              "value" : [ "title", "firstname", "surname", "fonction", "contactType", "phone", "mobile", "email" ]
-            },
-            "selectedRow" : {
-              "type" : "variable",
-              "value" : ""
-            }
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.name"
           },
-          "reference" : "75cf7af5-88be-4594-81d4-f8c0526ef201",
-          "hasValidationError" : false,
-          "id" : "pbTable"
-        } ] ]
-      },
-      "title" : "Contacts"
-    }, {
-      "container" : {
-        "type" : "container",
-        "dimension" : {
-          "xs" : 12
-        },
-        "propertyValues" : { },
-        "reference" : "aff6e091-cc80-42d3-98ec-77119b3b5f1f",
-        "hasValidationError" : false,
-        "id" : "pbContainer",
-        "rows" : [ [ {
-          "type" : "fragment",
-          "dimension" : {
-            "xs" : 12,
-            "sm" : 12,
-            "md" : 12,
-            "lg" : 12
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
           },
-          "propertyValues" : {
-            "cssClasses" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "hidden" : {
-              "type" : "constant",
-              "value" : false
-            }
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
           },
-          "reference" : "d5c26528-a9af-4639-b240-8e422acbf219",
-          "hasValidationError" : false,
-          "id" : "viewFileFragment",
-          "binding" : {
-            "label" : "'Bank Document'",
-            "fileRef" : "caseContext.badAtch_ref"
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
           }
-        } ], [ {
-          "type" : "component",
-          "dimension" : {
-            "xs" : 6,
-            "sm" : 6,
-            "md" : 6,
-            "lg" : 6
-          },
-          "propertyValues" : {
-            "cssClasses" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "hidden" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "required" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "minLength" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "maxLength" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "readOnly" : {
-              "type" : "constant",
-              "value" : true
-            },
-            "labelHidden" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "label" : {
-              "type" : "interpolation",
-              "value" : "Bank Name"
-            },
-            "labelPosition" : {
-              "type" : "constant",
-              "value" : "top"
-            },
-            "labelWidth" : {
-              "type" : "constant",
-              "value" : 4
-            },
-            "placeholder" : {
-              "type" : "interpolation"
-            },
-            "value" : {
-              "type" : "variable",
-              "value" : "provider.bankAccountDetails.bankName"
-            },
-            "type" : {
-              "type" : "constant",
-              "value" : "text"
-            },
-            "min" : {
-              "type" : "constant"
-            },
-            "max" : {
-              "type" : "constant"
-            },
-            "step" : {
-              "type" : "constant",
-              "value" : 1
-            }
-          },
-          "reference" : "a93d50d2-8234-4de7-ba55-0418fa4ed44a",
-          "hasValidationError" : false,
-          "id" : "pbInput"
-        }, {
-          "type" : "component",
-          "dimension" : {
-            "xs" : 6,
-            "sm" : 6,
-            "md" : 6,
-            "lg" : 6
-          },
-          "propertyValues" : {
-            "cssClasses" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "hidden" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "required" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "minLength" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "maxLength" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "readOnly" : {
-              "type" : "constant",
-              "value" : true
-            },
-            "labelHidden" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "label" : {
-              "type" : "interpolation",
-              "value" : "Account Name"
-            },
-            "labelPosition" : {
-              "type" : "constant",
-              "value" : "top"
-            },
-            "labelWidth" : {
-              "type" : "constant",
-              "value" : 4
-            },
-            "placeholder" : {
-              "type" : "interpolation"
-            },
-            "value" : {
-              "type" : "variable",
-              "value" : "provider.bankAccountDetails.accountName"
-            },
-            "type" : {
-              "type" : "constant",
-              "value" : "text"
-            },
-            "min" : {
-              "type" : "constant"
-            },
-            "max" : {
-              "type" : "constant"
-            },
-            "step" : {
-              "type" : "constant",
-              "value" : 1
-            }
-          },
-          "reference" : "6febf5b7-a584-4e95-92bd-5eb42454ed57",
-          "hasValidationError" : false,
-          "id" : "pbInput"
-        } ], [ {
-          "type" : "component",
-          "dimension" : {
-            "xs" : 6,
-            "sm" : 6,
-            "md" : 6,
-            "lg" : 6
-          },
-          "propertyValues" : {
-            "cssClasses" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "hidden" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "required" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "minLength" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "maxLength" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "readOnly" : {
-              "type" : "constant",
-              "value" : true
-            },
-            "labelHidden" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "label" : {
-              "type" : "interpolation",
-              "value" : "Bank Swift"
-            },
-            "labelPosition" : {
-              "type" : "constant",
-              "value" : "top"
-            },
-            "labelWidth" : {
-              "type" : "constant",
-              "value" : 4
-            },
-            "placeholder" : {
-              "type" : "interpolation"
-            },
-            "value" : {
-              "type" : "variable",
-              "value" : "provider.bankAccountDetails.bankSwift"
-            },
-            "type" : {
-              "type" : "constant",
-              "value" : "text"
-            },
-            "min" : {
-              "type" : "constant"
-            },
-            "max" : {
-              "type" : "constant"
-            },
-            "step" : {
-              "type" : "constant",
-              "value" : 1
-            }
-          },
-          "reference" : "6c18a4b7-92aa-4529-9dcc-758176b46906",
-          "hasValidationError" : false,
-          "id" : "pbInput"
-        }, {
-          "type" : "component",
-          "dimension" : {
-            "xs" : 6,
-            "sm" : 6,
-            "md" : 6,
-            "lg" : 6
-          },
-          "propertyValues" : {
-            "cssClasses" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "hidden" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "required" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "minLength" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "maxLength" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "readOnly" : {
-              "type" : "constant",
-              "value" : true
-            },
-            "labelHidden" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "label" : {
-              "type" : "interpolation",
-              "value" : "Account Number"
-            },
-            "labelPosition" : {
-              "type" : "constant",
-              "value" : "top"
-            },
-            "labelWidth" : {
-              "type" : "constant",
-              "value" : 4
-            },
-            "placeholder" : {
-              "type" : "interpolation"
-            },
-            "value" : {
-              "type" : "variable",
-              "value" : "provider.bankAccountDetails.accountNumber"
-            },
-            "type" : {
-              "type" : "constant",
-              "value" : "text"
-            },
-            "min" : {
-              "type" : "constant"
-            },
-            "max" : {
-              "type" : "constant"
-            },
-            "step" : {
-              "type" : "constant",
-              "value" : 1
-            }
-          },
-          "reference" : "13d172bc-5ca7-4b05-a95c-b44cb7564449",
-          "hasValidationError" : false,
-          "id" : "pbInput"
-        } ] ]
-      },
-      "title" : "Bank Account Details"
-    }, {
-      "container" : {
-        "type" : "container",
-        "dimension" : {
-          "xs" : 12
         },
-        "propertyValues" : { },
-        "reference" : "a2ac98b8-7205-420f-b7ed-8010f9fb203e",
+        "reference" : "2fbdeabc-74b2-4294-8a5c-396ee6897e2b",
         "hasValidationError" : false,
-        "id" : "pbContainer",
-        "rows" : [ [ {
-          "type" : "fragment",
-          "dimension" : {
-            "xs" : 12,
-            "sm" : 12,
-            "md" : 12,
-            "lg" : 12
-          },
-          "propertyValues" : {
-            "cssClasses" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "hidden" : {
-              "type" : "constant",
-              "value" : false
-            }
-          },
-          "reference" : "6fb0b6f1-e84d-42de-8e73-460f6388627f",
-          "hasValidationError" : false,
-          "id" : "viewFileFragment",
-          "binding" : {
-            "label" : "'Contract Document'",
-            "fileRef" : "caseContext.contractAtch_ref"
-          }
-        } ], [ {
-          "type" : "component",
-          "dimension" : {
-            "xs" : 6,
-            "sm" : 4,
-            "md" : 4,
-            "lg" : 4
-          },
-          "propertyValues" : {
-            "cssClasses" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "hidden" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "required" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "minLength" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "maxLength" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "readOnly" : {
-              "type" : "constant",
-              "value" : true
-            },
-            "labelHidden" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "label" : {
-              "type" : "interpolation",
-              "value" : "Name"
-            },
-            "labelPosition" : {
-              "type" : "constant",
-              "value" : "top"
-            },
-            "labelWidth" : {
-              "type" : "constant",
-              "value" : 4
-            },
-            "placeholder" : {
-              "type" : "interpolation"
-            },
-            "value" : {
-              "type" : "variable",
-              "value" : "provider.contract.contractName"
-            },
-            "type" : {
-              "type" : "constant",
-              "value" : "text"
-            },
-            "min" : {
-              "type" : "constant"
-            },
-            "max" : {
-              "type" : "constant"
-            },
-            "step" : {
-              "type" : "constant",
-              "value" : 1
-            }
-          },
-          "reference" : "dca14f1a-bdc1-4bc1-a6c7-76fe3f3c153c",
-          "hasValidationError" : false,
-          "id" : "pbInput"
-        }, {
-          "type" : "component",
-          "dimension" : {
-            "xs" : 6,
-            "sm" : 4,
-            "md" : 4,
-            "lg" : 4
-          },
-          "propertyValues" : {
-            "cssClasses" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "hidden" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "required" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "minLength" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "maxLength" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "readOnly" : {
-              "type" : "constant",
-              "value" : true
-            },
-            "labelHidden" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "label" : {
-              "type" : "interpolation",
-              "value" : "Amount"
-            },
-            "labelPosition" : {
-              "type" : "constant",
-              "value" : "top"
-            },
-            "labelWidth" : {
-              "type" : "constant",
-              "value" : 4
-            },
-            "placeholder" : {
-              "type" : "interpolation"
-            },
-            "value" : {
-              "type" : "variable",
-              "value" : "provider.contract.contractAmount"
-            },
-            "type" : {
-              "type" : "constant",
-              "value" : "text"
-            },
-            "min" : {
-              "type" : "constant"
-            },
-            "max" : {
-              "type" : "constant"
-            },
-            "step" : {
-              "type" : "constant",
-              "value" : 1
-            }
-          },
-          "reference" : "00893d51-927e-4f82-af49-37aa2273cae4",
-          "hasValidationError" : false,
-          "id" : "pbInput"
-        }, {
-          "type" : "component",
-          "dimension" : {
-            "xs" : 12,
-            "sm" : 4,
-            "md" : 4,
-            "lg" : 4
-          },
-          "propertyValues" : {
-            "cssClasses" : {
-              "type" : "constant",
-              "value" : ""
-            },
-            "hidden" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "readOnly" : {
-              "type" : "constant",
-              "value" : true
-            },
-            "required" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "labelHidden" : {
-              "type" : "constant",
-              "value" : false
-            },
-            "label" : {
-              "type" : "interpolation",
-              "value" : "Start Date"
-            },
-            "labelPosition" : {
-              "type" : "constant",
-              "value" : "top"
-            },
-            "labelWidth" : {
-              "type" : "constant",
-              "value" : 4
-            },
-            "value" : {
-              "type" : "variable",
-              "value" : "provider.contract.contractDate"
-            },
-            "dateFormat" : {
-              "type" : "constant",
-              "value" : "MM/dd/yyyy"
-            },
-            "placeholder" : {
-              "type" : "interpolation",
-              "value" : "Enter a date (mm/dd/yyyy)"
-            },
-            "showToday" : {
-              "type" : "constant",
-              "value" : true
-            },
-            "todayLabel" : {
-              "type" : "interpolation",
-              "value" : "Today"
-            }
-          },
-          "reference" : "e59c0680-edfa-46a7-81d7-69611e62f68a",
-          "hasValidationError" : false,
-          "id" : "pbDatePicker"
-        } ] ]
+        "id" : "pbInput"
       },
-      "title" : "Contract"
-    } ]
-  } ] ],
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 4,
+          "sm" : 4,
+          "xs" : 6,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "widgetId" : {
+            "type" : "constant",
+            "value" : "pbInput"
+          },
+          "isDisplayed" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 1
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Alias"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "readonly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "placeholder" : {
+            "type" : "constant"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.alias"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "c9224ade-8faa-479d-bbe2-cabbad358284",
+        "hasValidationError" : false,
+        "id" : "pbInput"
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 6,
+          "sm" : 2,
+          "md" : 2,
+          "lg" : 2
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Type"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.provType"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "fb2b54a7-88cc-49bf-8c8b-252d395d5aa6",
+        "hasValidationError" : false,
+        "id" : "pbInput"
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 6,
+          "sm" : 2,
+          "md" : 2,
+          "lg" : 2
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Priority"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.provPriority"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "6a07b029-ca35-4b40-9295-9bee21e9a615",
+        "hasValidationError" : false,
+        "id" : "pbInput"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 8,
+          "sm" : 8,
+          "xs" : 12,
+          "lg" : 8
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "widgetId" : {
+            "type" : "constant",
+            "value" : "pbInput"
+          },
+          "isDisplayed" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 1
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Address"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "readonly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "placeholder" : {
+            "type" : "constant"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.address1"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "03cec50b-4851-4a5c-9ff4-3bc51c096bdb",
+        "hasValidationError" : false,
+        "id" : "pbInput"
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 2,
+          "sm" : 2,
+          "xs" : 6,
+          "lg" : 2
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "widgetId" : {
+            "type" : "constant",
+            "value" : "pbInput"
+          },
+          "isDisplayed" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 1
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "City"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "readonly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "placeholder" : {
+            "type" : "constant"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.city"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "d73d8655-6895-4b32-a75b-73d8c7e509e0",
+        "hasValidationError" : false,
+        "id" : "pbInput"
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 2,
+          "sm" : 2,
+          "xs" : 6,
+          "lg" : 2
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "widgetId" : {
+            "type" : "constant",
+            "value" : "pbInput"
+          },
+          "isDisplayed" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 1
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Country"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "readonly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "placeholder" : {
+            "type" : "constant"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.country"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "41105aee-87c6-488a-8080-faee053d4d7c",
+        "hasValidationError" : false,
+        "id" : "pbInput"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 8,
+          "sm" : 8,
+          "xs" : 6,
+          "lg" : 8
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "widgetId" : {
+            "type" : "constant",
+            "value" : "pbInput"
+          },
+          "isDisplayed" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 1
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Address Complement"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "readonly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "placeholder" : {
+            "type" : "constant"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.address2"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "2ece532d-81af-4a17-9126-9399c669339f",
+        "hasValidationError" : false,
+        "id" : "pbInput"
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 4,
+          "sm" : 4,
+          "xs" : 6,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "widgetId" : {
+            "type" : "constant",
+            "value" : "pbInput"
+          },
+          "isDisplayed" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 1
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Email"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "email"
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "readonly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "placeholder" : {
+            "type" : "constant"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.email"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "9dc51a60-44a9-4f2f-a9d8-f39a90cd7966",
+        "hasValidationError" : false,
+        "id" : "pbInput"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 3,
+          "sm" : 3,
+          "xs" : 6,
+          "lg" : 3
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "widgetId" : {
+            "type" : "constant",
+            "value" : "pbInput"
+          },
+          "isDisplayed" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 1
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Telephone"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "readonly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "placeholder" : {
+            "type" : "constant"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.telephone"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "30f8db7b-9974-4b18-bc94-fe1ea718d382",
+        "hasValidationError" : false,
+        "id" : "pbInput"
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 3,
+          "sm" : 3,
+          "xs" : 6,
+          "lg" : 3
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "widgetId" : {
+            "type" : "constant",
+            "value" : "pbInput"
+          },
+          "isDisplayed" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 1
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Fax"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "readonly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "placeholder" : {
+            "type" : "constant"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.fax"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "745447b4-a636-4780-9d10-e9618e3c918e",
+        "hasValidationError" : false,
+        "id" : "pbInput"
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 6,
+          "sm" : 3,
+          "md" : 3,
+          "lg" : 3
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Currency"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.currency"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "ca23fbef-ba1c-4e70-b84a-42db4359321a",
+        "hasValidationError" : false,
+        "id" : "pbInput"
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "md" : 3,
+          "sm" : 3,
+          "xs" : 6,
+          "lg" : 3
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "widgetId" : {
+            "type" : "constant",
+            "value" : "pbInput"
+          },
+          "isDisplayed" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 1
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Payment Delay"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "number"
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "readonly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "placeholder" : {
+            "type" : "constant"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.paymentDelay"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "641c09c1-637a-471f-ab55-bbe8d0176e3d",
+        "hasValidationError" : false,
+        "id" : "pbInput"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Accounts"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 4"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "61a0f988-393a-41c6-b1d7-0df755018f88",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      }
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 4,
+          "md" : 4,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Extranet Account"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.loginExtranet"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "4516ab6e-f4b0-4ec5-846f-640581f662c6",
+        "hasValidationError" : false,
+        "id" : "pbInput"
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 6,
+          "sm" : 4,
+          "md" : 4,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Aux Account"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.auxAccount"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "c203a74b-a684-4bb4-95ad-febcc8052116",
+        "hasValidationError" : false,
+        "id" : "pbInput"
+      },
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 6,
+          "sm" : 4,
+          "md" : 4,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Analytic Account"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.analyticAccount"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "b8c057d6-0219-4484-a3e8-c77748120663",
+        "hasValidationError" : false,
+        "id" : "pbInput"
+      }
+    ],
+    [
+      {
+        "type" : "tabsContainer",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "dc0553a4-e9d3-4bb2-b911-0a16369f1b95",
+        "hasValidationError" : false,
+        "id" : "pbTabsContainer",
+        "tabList" : [
+          {
+            "type" : "tabContainer",
+            "dimension" : {
+              "xs" : 12
+            },
+            "propertyValues" : {
+              "title" : {
+                "type" : "interpolation",
+                "value" : "Contacts"
+              }
+            },
+            "reference" : "f663f539-5668-4b79-8888-ead467b51a33",
+            "hasValidationError" : false,
+            "id" : "pbTabContainer",
+            "container" : {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12
+              },
+              "propertyValues" : { },
+              "reference" : "268f29d8-131a-4b33-adef-71ce11869b27",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "rows" : [
+                [
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 12,
+                      "lg" : 12
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "headers" : {
+                        "type" : "constant",
+                        "value" : [
+                          "Title",
+                          "First Name",
+                          "Last Name",
+                          "Fonction",
+                          "Type",
+                          "Phone",
+                          "Mobile",
+                          "eMail"
+                        ]
+                      },
+                      "content" : {
+                        "type" : "expression",
+                        "value" : "provider.contact"
+                      },
+                      "columnsKey" : {
+                        "type" : "constant",
+                        "value" : [
+                          "title",
+                          "firstname",
+                          "surname",
+                          "fonction",
+                          "contactType",
+                          "phone",
+                          "mobile",
+                          "email"
+                        ]
+                      },
+                      "selectedRow" : {
+                        "type" : "variable",
+                        "value" : ""
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "striped" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "condensed" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "bordered" : {
+                        "type" : "constant",
+                        "value" : false
+                      }
+                    },
+                    "reference" : "75cf7af5-88be-4594-81d4-f8c0526ef201",
+                    "hasValidationError" : false,
+                    "id" : "pbTable"
+                  }
+                ]
+              ]
+            }
+          },
+          {
+            "type" : "tabContainer",
+            "dimension" : {
+              "xs" : 12
+            },
+            "propertyValues" : {
+              "title" : {
+                "type" : "interpolation",
+                "value" : "Bank Account Details"
+              }
+            },
+            "reference" : "887d7272-05cf-4c95-9a45-7eecbd5dc233",
+            "hasValidationError" : false,
+            "id" : "pbTabContainer",
+            "container" : {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12
+              },
+              "propertyValues" : { },
+              "reference" : "aff6e091-cc80-42d3-98ec-77119b3b5f1f",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "rows" : [
+                [
+                  {
+                    "type" : "fragment",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 12,
+                      "lg" : 12
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      }
+                    },
+                    "reference" : "d5c26528-a9af-4639-b240-8e422acbf219",
+                    "hasValidationError" : false,
+                    "id" : "viewFileFragment",
+                    "binding" : {
+                      "label" : "'Bank Document'",
+                      "fileRef" : "caseContext.badAtch_ref"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 6,
+                      "sm" : 6,
+                      "md" : 6,
+                      "lg" : 6
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "required" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "readOnly" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "labelHidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "label" : {
+                        "type" : "interpolation",
+                        "value" : "Bank Name"
+                      },
+                      "labelPosition" : {
+                        "type" : "constant",
+                        "value" : "top"
+                      },
+                      "labelWidth" : {
+                        "type" : "constant",
+                        "value" : 4
+                      },
+                      "placeholder" : {
+                        "type" : "interpolation"
+                      },
+                      "value" : {
+                        "type" : "variable",
+                        "value" : "provider.bankAccountDetails.bankName"
+                      },
+                      "type" : {
+                        "type" : "constant",
+                        "value" : "text"
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
+                      }
+                    },
+                    "reference" : "a93d50d2-8234-4de7-ba55-0418fa4ed44a",
+                    "hasValidationError" : false,
+                    "id" : "pbInput"
+                  },
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 6,
+                      "sm" : 6,
+                      "md" : 6,
+                      "lg" : 6
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "required" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "readOnly" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "labelHidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "label" : {
+                        "type" : "interpolation",
+                        "value" : "Account Name"
+                      },
+                      "labelPosition" : {
+                        "type" : "constant",
+                        "value" : "top"
+                      },
+                      "labelWidth" : {
+                        "type" : "constant",
+                        "value" : 4
+                      },
+                      "placeholder" : {
+                        "type" : "interpolation"
+                      },
+                      "value" : {
+                        "type" : "variable",
+                        "value" : "provider.bankAccountDetails.accountName"
+                      },
+                      "type" : {
+                        "type" : "constant",
+                        "value" : "text"
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
+                      }
+                    },
+                    "reference" : "6febf5b7-a584-4e95-92bd-5eb42454ed57",
+                    "hasValidationError" : false,
+                    "id" : "pbInput"
+                  }
+                ],
+                [
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 6,
+                      "sm" : 6,
+                      "md" : 6,
+                      "lg" : 6
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "required" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "readOnly" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "labelHidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "label" : {
+                        "type" : "interpolation",
+                        "value" : "Bank Swift"
+                      },
+                      "labelPosition" : {
+                        "type" : "constant",
+                        "value" : "top"
+                      },
+                      "labelWidth" : {
+                        "type" : "constant",
+                        "value" : 4
+                      },
+                      "placeholder" : {
+                        "type" : "interpolation"
+                      },
+                      "value" : {
+                        "type" : "variable",
+                        "value" : "provider.bankAccountDetails.bankSwift"
+                      },
+                      "type" : {
+                        "type" : "constant",
+                        "value" : "text"
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
+                      }
+                    },
+                    "reference" : "6c18a4b7-92aa-4529-9dcc-758176b46906",
+                    "hasValidationError" : false,
+                    "id" : "pbInput"
+                  },
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 6,
+                      "sm" : 6,
+                      "md" : 6,
+                      "lg" : 6
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "required" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "readOnly" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "labelHidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "label" : {
+                        "type" : "interpolation",
+                        "value" : "Account Number"
+                      },
+                      "labelPosition" : {
+                        "type" : "constant",
+                        "value" : "top"
+                      },
+                      "labelWidth" : {
+                        "type" : "constant",
+                        "value" : 4
+                      },
+                      "placeholder" : {
+                        "type" : "interpolation"
+                      },
+                      "value" : {
+                        "type" : "variable",
+                        "value" : "provider.bankAccountDetails.accountNumber"
+                      },
+                      "type" : {
+                        "type" : "constant",
+                        "value" : "text"
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
+                      }
+                    },
+                    "reference" : "13d172bc-5ca7-4b05-a95c-b44cb7564449",
+                    "hasValidationError" : false,
+                    "id" : "pbInput"
+                  }
+                ]
+              ]
+            }
+          },
+          {
+            "type" : "tabContainer",
+            "dimension" : {
+              "xs" : 12
+            },
+            "propertyValues" : {
+              "title" : {
+                "type" : "interpolation",
+                "value" : "Contract"
+              }
+            },
+            "reference" : "199866b0-bc3d-414e-a14a-a44530d0bb8d",
+            "hasValidationError" : false,
+            "id" : "pbTabContainer",
+            "container" : {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12
+              },
+              "propertyValues" : { },
+              "reference" : "a2ac98b8-7205-420f-b7ed-8010f9fb203e",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "rows" : [
+                [
+                  {
+                    "type" : "fragment",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 12,
+                      "lg" : 12
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      }
+                    },
+                    "reference" : "6fb0b6f1-e84d-42de-8e73-460f6388627f",
+                    "hasValidationError" : false,
+                    "id" : "viewFileFragment",
+                    "binding" : {
+                      "label" : "'Contract Document'",
+                      "fileRef" : "caseContext.contractAtch_ref"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 6,
+                      "sm" : 4,
+                      "md" : 4,
+                      "lg" : 4
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "required" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "readOnly" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "labelHidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "label" : {
+                        "type" : "interpolation",
+                        "value" : "Name"
+                      },
+                      "labelPosition" : {
+                        "type" : "constant",
+                        "value" : "top"
+                      },
+                      "labelWidth" : {
+                        "type" : "constant",
+                        "value" : 4
+                      },
+                      "placeholder" : {
+                        "type" : "interpolation"
+                      },
+                      "value" : {
+                        "type" : "variable",
+                        "value" : "provider.contract.contractName"
+                      },
+                      "type" : {
+                        "type" : "constant",
+                        "value" : "text"
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
+                      }
+                    },
+                    "reference" : "dca14f1a-bdc1-4bc1-a6c7-76fe3f3c153c",
+                    "hasValidationError" : false,
+                    "id" : "pbInput"
+                  },
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 6,
+                      "sm" : 4,
+                      "md" : 4,
+                      "lg" : 4
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "required" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "minLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "maxLength" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "readOnly" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "labelHidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "label" : {
+                        "type" : "interpolation",
+                        "value" : "Amount"
+                      },
+                      "labelPosition" : {
+                        "type" : "constant",
+                        "value" : "top"
+                      },
+                      "labelWidth" : {
+                        "type" : "constant",
+                        "value" : 4
+                      },
+                      "placeholder" : {
+                        "type" : "interpolation"
+                      },
+                      "value" : {
+                        "type" : "variable",
+                        "value" : "provider.contract.contractAmount"
+                      },
+                      "type" : {
+                        "type" : "constant",
+                        "value" : "text"
+                      },
+                      "min" : {
+                        "type" : "constant"
+                      },
+                      "max" : {
+                        "type" : "constant"
+                      },
+                      "step" : {
+                        "type" : "constant",
+                        "value" : 1
+                      }
+                    },
+                    "reference" : "00893d51-927e-4f82-af49-37aa2273cae4",
+                    "hasValidationError" : false,
+                    "id" : "pbInput"
+                  },
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 4,
+                      "md" : 4,
+                      "lg" : 4
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "readOnly" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "required" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "labelHidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "label" : {
+                        "type" : "interpolation",
+                        "value" : "Start Date"
+                      },
+                      "labelPosition" : {
+                        "type" : "constant",
+                        "value" : "top"
+                      },
+                      "labelWidth" : {
+                        "type" : "constant",
+                        "value" : 4
+                      },
+                      "value" : {
+                        "type" : "variable",
+                        "value" : "provider.contract.contractDate"
+                      },
+                      "dateFormat" : {
+                        "type" : "constant",
+                        "value" : "MM/dd/yyyy"
+                      },
+                      "placeholder" : {
+                        "type" : "interpolation",
+                        "value" : "Enter a date (mm/dd/yyyy)"
+                      },
+                      "showToday" : {
+                        "type" : "constant",
+                        "value" : true
+                      },
+                      "todayLabel" : {
+                        "type" : "interpolation",
+                        "value" : "Today"
+                      }
+                    },
+                    "reference" : "e59c0680-edfa-46a7-81d7-69611e62f68a",
+                    "hasValidationError" : false,
+                    "id" : "pbDatePicker"
+                  }
+                ]
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  ],
   "assets" : [ ],
   "inactiveAssets" : [ ],
-  "data" : {
+  "variables" : {
     "provider" : {
       "type" : "constant",
       "exposed" : true
     },
     "caseContext" : {
       "type" : "url",
-      "value" : "../API/bpm/case/{{provider.pkid}}/context",
+      "value" : [
+        "../API/bpm/case/{{provider.pkid}}/context"
+      ],
       "exposed" : false
     }
   },

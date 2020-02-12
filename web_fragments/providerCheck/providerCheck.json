@@ -1,126 +1,136 @@
 {
-  "designerVersion" : "1.9.24",
-  "previousDesignerVersion" : "1.8.39",
+  "designerVersion" : "1.10.18",
+  "previousDesignerVersion" : "1.9.24",
   "id" : "providerCheck",
   "name" : "providerCheck",
-  "lastUpdate" : 1562678077303,
-  "rows" : [ [ {
-    "type" : "container",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 12,
-      "md" : 12,
-      "lg" : 12
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "repeatedCollection" : {
-        "type" : "variable",
-        "value" : ""
+  "lastUpdate" : 1581497156461,
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "c16b6fed-2c41-4aa2-971a-474de58a2567",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 4,
+                "lg" : 4
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "value" : {
+                  "type" : "constant",
+                  "value" : "Account Created"
+                },
+                "booleanValue" : {
+                  "type" : "expression",
+                  "value" : "provider.accCheck===true"
+                }
+              },
+              "reference" : "97136742-e160-495b-9b8f-14e1a2281202",
+              "hasValidationError" : false,
+              "id" : "customReadOnlyCheckBox"
+            },
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 4,
+                "lg" : 4
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "value" : {
+                  "type" : "constant",
+                  "value" : "IT check"
+                },
+                "booleanValue" : {
+                  "type" : "expression",
+                  "value" : "provider.itCheck===true"
+                }
+              },
+              "reference" : "3744aa33-ab5b-45a6-b374-ced80db330cd",
+              "hasValidationError" : false,
+              "id" : "customReadOnlyCheckBox"
+            },
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 4,
+                "lg" : 4
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "value" : {
+                  "type" : "constant",
+                  "value" : "Extranet allowed"
+                },
+                "booleanValue" : {
+                  "type" : "expression",
+                  "value" : "provider.isExtranetAllowed===true"
+                }
+              },
+              "reference" : "4fa14a9b-bca6-4441-91ec-293c50d03fc1",
+              "hasValidationError" : false,
+              "id" : "customReadOnlyCheckBox"
+            }
+          ]
+        ]
       }
-    },
-    "reference" : "c16b6fed-2c41-4aa2-971a-474de58a2567",
-    "hasValidationError" : false,
-    "id" : "pbContainer",
-    "rows" : [ [ {
-      "type" : "component",
-      "dimension" : {
-        "xs" : 12,
-        "sm" : 12,
-        "md" : 4,
-        "lg" : 4
-      },
-      "propertyValues" : {
-        "cssClasses" : {
-          "type" : "constant",
-          "value" : ""
-        },
-        "hidden" : {
-          "type" : "constant",
-          "value" : false
-        },
-        "value" : {
-          "type" : "constant",
-          "value" : "Account Created"
-        },
-        "booleanValue" : {
-          "type" : "expression",
-          "value" : "provider.accCheck===true"
-        }
-      },
-      "reference" : "97136742-e160-495b-9b8f-14e1a2281202",
-      "hasValidationError" : false,
-      "id" : "customReadOnlyCheckBox"
-    }, {
-      "type" : "component",
-      "dimension" : {
-        "xs" : 12,
-        "sm" : 12,
-        "md" : 4,
-        "lg" : 4
-      },
-      "propertyValues" : {
-        "cssClasses" : {
-          "type" : "constant",
-          "value" : ""
-        },
-        "hidden" : {
-          "type" : "constant",
-          "value" : false
-        },
-        "value" : {
-          "type" : "constant",
-          "value" : "IT check"
-        },
-        "booleanValue" : {
-          "type" : "expression",
-          "value" : "provider.itCheck===true"
-        }
-      },
-      "reference" : "3744aa33-ab5b-45a6-b374-ced80db330cd",
-      "hasValidationError" : false,
-      "id" : "customReadOnlyCheckBox"
-    }, {
-      "type" : "component",
-      "dimension" : {
-        "xs" : 12,
-        "sm" : 12,
-        "md" : 4,
-        "lg" : 4
-      },
-      "propertyValues" : {
-        "cssClasses" : {
-          "type" : "constant",
-          "value" : ""
-        },
-        "hidden" : {
-          "type" : "constant",
-          "value" : false
-        },
-        "value" : {
-          "type" : "constant",
-          "value" : "Extranet allowed"
-        },
-        "booleanValue" : {
-          "type" : "expression",
-          "value" : "provider.isExtranetAllowed===true"
-        }
-      },
-      "reference" : "4fa14a9b-bca6-4441-91ec-293c50d03fc1",
-      "hasValidationError" : false,
-      "id" : "customReadOnlyCheckBox"
-    } ] ]
-  } ] ],
+    ]
+  ],
   "assets" : [ ],
   "inactiveAssets" : [ ],
-  "data" : {
+  "variables" : {
     "provider" : {
       "type" : "constant",
       "exposed" : true

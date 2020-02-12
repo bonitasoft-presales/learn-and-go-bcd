@@ -1,66 +1,281 @@
 {
-  "designerVersion" : "1.9.24",
-  "previousDesignerVersion" : "1.8.39",
+  "designerVersion" : "1.10.18",
+  "previousDesignerVersion" : "1.9.24",
   "id" : "providerMain",
   "name" : "providerMain",
-  "lastUpdate" : 1571211022933,
-  "rows" : [ [ {
-    "type" : "container",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 12,
-      "md" : 12,
-      "lg" : 12
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : "blueGradBox fixedFooter"
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "repeatedCollection" : {
-        "type" : "variable",
-        "value" : ""
+  "lastUpdate" : 1581497156380,
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : "blueGradBox fixedFooter"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable",
+            "value" : ""
+          }
+        },
+        "reference" : "ebe4d881-5aa2-48e5-bf84-39de4c6b652e",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 6,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : "blueRightSeparator"
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "repeatedCollection" : {
+                  "type" : "variable",
+                  "value" : ""
+                }
+              },
+              "reference" : "8f2e36fe-1062-4915-93d6-b800c6331603",
+              "hasValidationError" : false,
+              "id" : "pbContainer",
+              "rows" : [
+                [
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 6,
+                      "lg" : 6
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "constant",
+                        "value" : false
+                      },
+                      "text" : {
+                        "type" : "interpolation",
+                        "value" : "<span class=\"glyphicon glyphicon-plus\"></span> Add Provider"
+                      },
+                      "type" : {
+                        "type" : "constant",
+                        "value" : "process"
+                      },
+                      "targetUrl" : {
+                        "type" : "constant",
+                        "value" : "http://"
+                      },
+                      "pageToken" : {
+                        "type" : "constant"
+                      },
+                      "processName" : {
+                        "type" : "expression",
+                        "value" : "providersCreate[0].name"
+                      },
+                      "processVersion" : {
+                        "type" : "expression",
+                        "value" : "providersCreate[0].version"
+                      },
+                      "taskId" : {
+                        "type" : "constant"
+                      },
+                      "caseId" : {
+                        "type" : "constant"
+                      },
+                      "target" : {
+                        "type" : "constant",
+                        "value" : "_self"
+                      },
+                      "appToken" : {
+                        "type" : "constant"
+                      },
+                      "urlParams" : {
+                        "type" : "constant"
+                      },
+                      "alignment" : {
+                        "type" : "constant",
+                        "value" : "center"
+                      },
+                      "buttonStyle" : {
+                        "type" : "constant",
+                        "value" : "success"
+                      }
+                    },
+                    "reference" : "022fc782-ccd2-4c59-97f6-afd714ee8a31",
+                    "hasValidationError" : false,
+                    "id" : "pbLink"
+                  },
+                  {
+                    "type" : "component",
+                    "dimension" : {
+                      "xs" : 12,
+                      "sm" : 12,
+                      "md" : 6,
+                      "lg" : 6
+                    },
+                    "propertyValues" : {
+                      "cssClasses" : {
+                        "type" : "constant",
+                        "value" : ""
+                      },
+                      "hidden" : {
+                        "type" : "expression",
+                        "value" : "selectedProvider.pkid == null"
+                      },
+                      "text" : {
+                        "type" : "interpolation",
+                        "value" : "<span class=\"glyphicon glyphicon-eye-open\"></span> View Selected Provider"
+                      },
+                      "type" : {
+                        "type" : "constant",
+                        "value" : "page"
+                      },
+                      "targetUrl" : {
+                        "type" : "constant",
+                        "value" : "http://"
+                      },
+                      "pageToken" : {
+                        "type" : "constant",
+                        "value" : "providerDetails"
+                      },
+                      "processName" : {
+                        "type" : "constant"
+                      },
+                      "processVersion" : {
+                        "type" : "constant"
+                      },
+                      "taskId" : {
+                        "type" : "constant"
+                      },
+                      "caseId" : {
+                        "type" : "constant"
+                      },
+                      "target" : {
+                        "type" : "constant",
+                        "value" : "_self"
+                      },
+                      "appToken" : {
+                        "type" : "constant",
+                        "value" : "providers"
+                      },
+                      "urlParams" : {
+                        "type" : "expression",
+                        "value" : "selectedId"
+                      },
+                      "alignment" : {
+                        "type" : "constant",
+                        "value" : "center"
+                      },
+                      "buttonStyle" : {
+                        "type" : "constant",
+                        "value" : "info"
+                      }
+                    },
+                    "reference" : "df2c9c8d-bf28-4466-bf2c-751b1aeddc82",
+                    "hasValidationError" : false,
+                    "id" : "pbLink"
+                  }
+                ]
+              ]
+            },
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 6,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "readOnly" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Search"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "left"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "placeholder" : {
+                  "type" : "interpolation",
+                  "value" : "name, city or country"
+                },
+                "availableValues" : {
+                  "type" : "expression",
+                  "value" : "providers"
+                },
+                "displayedKey" : {
+                  "type" : "constant",
+                  "value" : "name + ' - ' + city + ' ' + country"
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "filtered"
+                }
+              },
+              "reference" : "9b7f03ab-5759-48c2-9b31-83306fe75cac",
+              "hasValidationError" : false,
+              "id" : "pbAutocomplete"
+            }
+          ]
+        ]
       }
-    },
-    "reference" : "ebe4d881-5aa2-48e5-bf84-39de4c6b652e",
-    "hasValidationError" : false,
-    "id" : "pbContainer",
-    "rows" : [ [ {
-      "type" : "container",
-      "dimension" : {
-        "xs" : 12,
-        "sm" : 12,
-        "md" : 6,
-        "lg" : 6
-      },
-      "propertyValues" : {
-        "cssClasses" : {
-          "type" : "constant",
-          "value" : "blueRightSeparator"
-        },
-        "hidden" : {
-          "type" : "constant",
-          "value" : false
-        },
-        "repeatedCollection" : {
-          "type" : "variable",
-          "value" : ""
-        }
-      },
-      "reference" : "8f2e36fe-1062-4915-93d6-b800c6331603",
-      "hasValidationError" : false,
-      "id" : "pbContainer",
-      "rows" : [ [ {
+    ],
+    [
+      {
         "type" : "component",
         "dimension" : {
           "xs" : 12,
           "sm" : 12,
-          "md" : 6,
-          "lg" : 6
+          "md" : 12,
+          "lg" : 12
         },
         "propertyValues" : {
           "cssClasses" : {
@@ -71,297 +286,106 @@
             "type" : "constant",
             "value" : false
           },
-          "text" : {
-            "type" : "interpolation",
-            "value" : "<span class=\"glyphicon glyphicon-plus\"></span> Add Provider"
+          "headers" : {
+            "type" : "constant",
+            "value" : [
+              "Name",
+              "Country",
+              "Type",
+              "Priority"
+            ]
           },
           "type" : {
             "type" : "constant",
-            "value" : "process"
+            "value" : "Variable"
           },
-          "targetUrl" : {
+          "apiUrl" : {
             "type" : "constant",
-            "value" : "http://"
+            "value" : "../API/"
           },
-          "pageToken" : {
+          "params" : {
             "type" : "constant"
           },
-          "processName" : {
+          "content" : {
             "type" : "expression",
-            "value" : "providersCreate[0].name"
-          },
-          "processVersion" : {
-            "type" : "expression",
-            "value" : "providersCreate[0].version"
-          },
-          "taskId" : {
-            "type" : "constant"
-          },
-          "caseId" : {
-            "type" : "constant"
-          },
-          "target" : {
-            "type" : "constant",
-            "value" : "_self"
-          },
-          "appToken" : {
-            "type" : "constant"
-          },
-          "urlParams" : {
-            "type" : "constant"
-          },
-          "alignment" : {
-            "type" : "constant",
-            "value" : "center"
-          },
-          "buttonStyle" : {
-            "type" : "constant",
-            "value" : "success"
-          }
-        },
-        "reference" : "022fc782-ccd2-4c59-97f6-afd714ee8a31",
-        "hasValidationError" : false,
-        "id" : "pbLink"
-      }, {
-        "type" : "component",
-        "dimension" : {
-          "xs" : 12,
-          "sm" : 12,
-          "md" : 6,
-          "lg" : 6
-        },
-        "propertyValues" : {
-          "cssClasses" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "hidden" : {
-            "type" : "expression",
-            "value" : "selectedProvider.pkid == null"
-          },
-          "text" : {
-            "type" : "interpolation",
-            "value" : "<span class=\"glyphicon glyphicon-eye-open\"></span> View Selected Provider"
-          },
-          "type" : {
-            "type" : "constant",
-            "value" : "page"
-          },
-          "targetUrl" : {
-            "type" : "constant",
-            "value" : "http://"
-          },
-          "pageToken" : {
-            "type" : "constant",
-            "value" : "providerDetails"
-          },
-          "processName" : {
-            "type" : "constant"
-          },
-          "processVersion" : {
-            "type" : "constant"
-          },
-          "taskId" : {
-            "type" : "constant"
-          },
-          "caseId" : {
-            "type" : "constant"
-          },
-          "target" : {
-            "type" : "constant",
-            "value" : "_self"
-          },
-          "appToken" : {
-            "type" : "constant",
             "value" : "providers"
           },
-          "urlParams" : {
-            "type" : "expression",
-            "value" : "selectedId"
-          },
-          "alignment" : {
+          "columnsKey" : {
             "type" : "constant",
-            "value" : "center"
+            "value" : [
+              "name",
+              "country",
+              "provType",
+              "provPriority"
+            ]
           },
-          "buttonStyle" : {
+          "sortColumns" : {
+            "type" : "constant"
+          },
+          "selectedRow" : {
+            "type" : "variable",
+            "value" : "selectedProvider"
+          },
+          "pageSize" : {
             "type" : "constant",
-            "value" : "info"
+            "value" : 10
+          },
+          "filter" : {
+            "type" : "constant"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "striped" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "condensed" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "bordered" : {
+            "type" : "constant",
+            "value" : false
           }
         },
-        "reference" : "df2c9c8d-bf28-4466-bf2c-751b1aeddc82",
+        "reference" : "cc13b7aa-a56a-4fac-aa73-26b6b0453e21",
         "hasValidationError" : false,
-        "id" : "pbLink"
-      } ] ]
-    }, {
-      "type" : "component",
-      "dimension" : {
-        "xs" : 12,
-        "sm" : 12,
-        "md" : 6,
-        "lg" : 6
-      },
-      "propertyValues" : {
-        "cssClasses" : {
-          "type" : "constant",
-          "value" : ""
-        },
-        "hidden" : {
-          "type" : "constant",
-          "value" : false
-        },
-        "readOnly" : {
-          "type" : "constant",
-          "value" : false
-        },
-        "required" : {
-          "type" : "constant",
-          "value" : false
-        },
-        "labelHidden" : {
-          "type" : "constant",
-          "value" : false
-        },
-        "label" : {
-          "type" : "interpolation",
-          "value" : "Search"
-        },
-        "labelPosition" : {
-          "type" : "constant",
-          "value" : "left"
-        },
-        "labelWidth" : {
-          "type" : "constant",
-          "value" : 4
-        },
-        "placeholder" : {
-          "type" : "interpolation",
-          "value" : "name, city or country"
-        },
-        "availableValues" : {
-          "type" : "expression",
-          "value" : "providers"
-        },
-        "displayedKey" : {
-          "type" : "constant",
-          "value" : "name + ' - ' + city + ' ' + country"
-        },
-        "value" : {
-          "type" : "variable",
-          "value" : "filtered"
-        }
-      },
-      "reference" : "9b7f03ab-5759-48c2-9b31-83306fe75cac",
-      "hasValidationError" : false,
-      "id" : "pbAutocomplete"
-    } ] ]
-  } ], [ {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 12,
-      "md" : 12,
-      "lg" : 12
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "headers" : {
-        "type" : "constant",
-        "value" : [ "Name", "Country", "Type", "Priority" ]
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "Variable"
-      },
-      "apiUrl" : {
-        "type" : "constant",
-        "value" : "../API/"
-      },
-      "params" : {
-        "type" : "constant"
-      },
-      "content" : {
-        "type" : "expression",
-        "value" : "providers"
-      },
-      "columnsKey" : {
-        "type" : "constant",
-        "value" : [ "name", "country", "provType", "provPriority" ]
-      },
-      "sortColumns" : {
-        "type" : "constant"
-      },
-      "selectedRow" : {
-        "type" : "variable",
-        "value" : "selectedProvider"
-      },
-      "pageSize" : {
-        "type" : "constant",
-        "value" : 10
-      },
-      "filter" : {
-        "type" : "constant"
+        "id" : "pbDataTable"
       }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "e8f888c7-a239-4fc6-b38c-bc5d892b8458",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
     },
-    "reference" : "cc13b7aa-a56a-4fac-aa73-26b6b0453e21",
-    "hasValidationError" : false,
-    "id" : "pbDataTable"
-  } ] ],
-  "assets" : [ {
-    "id" : "e8f888c7-a239-4fc6-b38c-bc5d892b8458",
-    "name" : "localization.json",
-    "type" : "json",
-    "order" : 0,
-    "external" : false
-  }, {
-    "id" : "e7cfd846-575e-4c78-8e01-478f9a7678ec",
-    "name" : "myCss.css",
-    "type" : "css",
-    "order" : 1,
-    "external" : false
-  }, {
-    "id" : "e66d9b52-6499-4c34-9688-e060207cff9d",
-    "name" : "style.css",
-    "type" : "css",
-    "order" : 0,
-    "external" : false
-  } ],
+    {
+      "id" : "e7cfd846-575e-4c78-8e01-478f9a7678ec",
+      "name" : "myCss.css",
+      "type" : "css",
+      "order" : 1,
+      "external" : false
+    },
+    {
+      "id" : "e66d9b52-6499-4c34-9688-e060207cff9d",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
   "inactiveAssets" : [ ],
-  "data" : {
-    "session" : {
-      "type" : "url",
-      "value" : "../API/system/session/unusedid",
-      "exposed" : false
-    },
-    "providers" : {
-      "type" : "url",
-      "value" : "../API/bdm/businessData/com.company.model.Provider?q=find&p=0&c=100",
-      "exposed" : false
-    },
+  "variables" : {
     "providersCreate" : {
       "type" : "url",
-      "value" : "../API/bpm/process?f=name=New%20Provider&p=0&c=10&o=version%20desc&f=activationState=ENABLED",
-      "exposed" : false
-    },
-    "selectedProvider" : {
-      "type" : "json",
-      "value" : "{\"name\":\"\"}",
-      "exposed" : false
-    },
-    "selectedId" : {
-      "type" : "expression",
-      "value" : "return {\"pkid\": $data.selectedProvider.pkid}",
-      "exposed" : false
-    },
-    "searchProvider" : {
-      "type" : "url",
-      "value" : "../API/bdm/businessData/com.company.model.Provider?q=autocompSearch&p=0&c=100&f=qParam={{filtered}}",
+      "value" : [
+        "../API/bpm/process?f=name=New%20Provider&p=0&c=10&o=version%20desc&f=activationState=ENABLED"
+      ],
       "exposed" : false
     },
     "q" : {
@@ -372,14 +396,56 @@
       "type" : "constant",
       "exposed" : false
     },
+    "selectedId" : {
+      "type" : "expression",
+      "value" : [
+        "return {\"pkid\": $data.selectedProvider.pkid}"
+      ],
+      "exposed" : false
+    },
+    "searchProvider" : {
+      "type" : "url",
+      "value" : [
+        "../API/bdm/businessData/com.company.model.Provider?q=autocompSearch&p=0&c=100&f=qParam={{filtered}}"
+      ],
+      "exposed" : false
+    },
+    "session" : {
+      "type" : "url",
+      "value" : [
+        "../API/system/session/unusedid"
+      ],
+      "exposed" : false
+    },
     "foundProvider" : {
       "type" : "expression",
-      "value" : "if ($data.searchProvider){\n    $data.selectedProvider = $data.searchProvider[0];\n}\nreturn null;",
+      "value" : [
+        "if ($data.searchProvider){",
+        "    $data.selectedProvider = $data.searchProvider[0];",
+        "}",
+        "return null;"
+      ],
       "exposed" : false
     },
     "canCreate" : {
       "type" : "expression",
-      "value" : "return $data.providersCreate.length > 0;",
+      "value" : [
+        "return $data.providersCreate.length > 0;"
+      ],
+      "exposed" : false
+    },
+    "selectedProvider" : {
+      "type" : "json",
+      "value" : [
+        "{\"name\":\"\"}"
+      ],
+      "exposed" : false
+    },
+    "providers" : {
+      "type" : "url",
+      "value" : [
+        "../API/bdm/businessData/com.company.model.Provider?q=find&p=0&c=100"
+      ],
       "exposed" : false
     }
   },

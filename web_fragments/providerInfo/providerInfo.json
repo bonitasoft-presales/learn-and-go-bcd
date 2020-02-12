@@ -1,429 +1,485 @@
 {
-  "designerVersion" : "1.9.24",
-  "previousDesignerVersion" : "1.8.39",
+  "designerVersion" : "1.10.18",
+  "previousDesignerVersion" : "1.9.24",
   "id" : "providerInfo",
   "name" : "providerInfo",
-  "lastUpdate" : 1562678077263,
-  "rows" : [ [ {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 12,
-      "md" : 12,
-      "lg" : 12
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "text" : {
-        "type" : "interpolation",
-        "value" : "Provider Info"
-      },
-      "level" : {
-        "type" : "constant",
-        "value" : "Level 2"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "center"
+  "lastUpdate" : 1581497156418,
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Provider Info"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 2"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "center"
+          }
+        },
+        "reference" : "148629b1-f731-48ea-a16a-60dd57cf47c0",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
       }
-    },
-    "reference" : "148629b1-f731-48ea-a16a-60dd57cf47c0",
-    "hasValidationError" : false,
-    "id" : "pbTitle"
-  } ], [ {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 6,
-      "md" : 3,
-      "lg" : 3
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 6,
+          "md" : 3,
+          "lg" : 3
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Provider Name"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.name"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "b076ddaa-7d99-45ff-abb9-f49efbb79c2c",
+        "hasValidationError" : false,
+        "id" : "pbInput"
       },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 6,
+          "md" : 3,
+          "lg" : 3
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Provider Country"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.country"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "80536a3e-677a-4c86-aeb4-e05732fe0bef",
+        "hasValidationError" : false,
+        "id" : "pbInput"
       },
-      "required" : {
-        "type" : "constant",
-        "value" : false
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 6,
+          "md" : 3,
+          "lg" : 3
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Provider Type"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.provType"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "571d1247-1166-4353-8933-863d21a9bb50",
+        "hasValidationError" : false,
+        "id" : "pbInput"
       },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Provider Name"
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 4
-      },
-      "placeholder" : {
-        "type" : "interpolation"
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.name"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 6,
+          "md" : 3,
+          "lg" : 3
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Provider Priority"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "provider.provPriority"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "70f89105-623a-4e60-8fe3-a5637b6e66cb",
+        "hasValidationError" : false,
+        "id" : "pbInput"
       }
-    },
-    "reference" : "b076ddaa-7d99-45ff-abb9-f49efbb79c2c",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  }, {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 6,
-      "md" : 3,
-      "lg" : 3
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Provider Country"
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 4
-      },
-      "placeholder" : {
-        "type" : "interpolation"
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.country"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Contacts"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 4"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "center"
+          }
+        },
+        "reference" : "03839940-a235-4751-89e4-c91d64f31624",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
       }
-    },
-    "reference" : "80536a3e-677a-4c86-aeb4-e05732fe0bef",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  }, {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 6,
-      "md" : 3,
-      "lg" : 3
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Provider Type"
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 4
-      },
-      "placeholder" : {
-        "type" : "interpolation"
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.provType"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
+    ],
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "headers" : {
+            "type" : "constant",
+            "value" : [
+              "Title",
+              "First Name",
+              "Last Name",
+              "Fonction",
+              "Type",
+              "Phone",
+              "Mobile",
+              "eMail"
+            ]
+          },
+          "content" : {
+            "type" : "expression",
+            "value" : "provider.contact"
+          },
+          "columnsKey" : {
+            "type" : "constant",
+            "value" : [
+              "title",
+              "firstname",
+              "surname",
+              "fonction",
+              "contactType",
+              "phone",
+              "mobile",
+              "email"
+            ]
+          },
+          "selectedRow" : {
+            "type" : "variable",
+            "value" : ""
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "striped" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "condensed" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "bordered" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "1d940374-bb9c-4752-8343-3c9b0a533ffb",
+        "hasValidationError" : false,
+        "id" : "pbTable"
       }
-    },
-    "reference" : "571d1247-1166-4353-8933-863d21a9bb50",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  }, {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 6,
-      "md" : 3,
-      "lg" : 3
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "required" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "minLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "maxLength" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "readOnly" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : "Provider Priority"
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 4
-      },
-      "placeholder" : {
-        "type" : "interpolation"
-      },
-      "value" : {
-        "type" : "variable",
-        "value" : "provider.provPriority"
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "text"
-      },
-      "min" : {
-        "type" : "constant"
-      },
-      "max" : {
-        "type" : "constant"
-      },
-      "step" : {
-        "type" : "constant",
-        "value" : 1
-      }
-    },
-    "reference" : "70f89105-623a-4e60-8fe3-a5637b6e66cb",
-    "hasValidationError" : false,
-    "id" : "pbInput"
-  } ], [ {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 12,
-      "md" : 12,
-      "lg" : 12
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "text" : {
-        "type" : "interpolation",
-        "value" : "Contacts"
-      },
-      "level" : {
-        "type" : "constant",
-        "value" : "Level 4"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "center"
-      }
-    },
-    "reference" : "03839940-a235-4751-89e4-c91d64f31624",
-    "hasValidationError" : false,
-    "id" : "pbTitle"
-  } ], [ {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 12,
-      "md" : 12,
-      "lg" : 12
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "headers" : {
-        "type" : "constant",
-        "value" : [ "Title", "First Name", "Last Name", "Fonction", "Type", "Phone", "Mobile", "eMail" ]
-      },
-      "content" : {
-        "type" : "expression",
-        "value" : "provider.contact"
-      },
-      "columnsKey" : {
-        "type" : "constant",
-        "value" : [ "title", "firstname", "surname", "fonction", "contactType", "phone", "mobile", "email" ]
-      },
-      "selectedRow" : {
-        "type" : "variable",
-        "value" : ""
-      }
-    },
-    "reference" : "1d940374-bb9c-4752-8343-3c9b0a533ffb",
-    "hasValidationError" : false,
-    "id" : "pbTable"
-  } ] ],
+    ]
+  ],
   "assets" : [ ],
   "inactiveAssets" : [ ],
-  "data" : {
+  "variables" : {
+    "task" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
     "provider" : {
       "type" : "constant",
       "exposed" : true
     },
     "context" : {
       "type" : "url",
-      "value" : "../API/bpm/userTask/{{taskId}}/context",
-      "exposed" : false
-    },
-    "task" : {
-      "type" : "url",
-      "value" : "../API/bpm/userTask/{{taskId}}",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}/context"
+      ],
       "exposed" : false
     },
     "taskid" : {
       "type" : "urlparameter",
-      "value" : "id",
+      "value" : [
+        "id"
+      ],
       "exposed" : false
     }
   },
