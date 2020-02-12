@@ -1,4 +1,4 @@
-@Library('github.com/bonitasoft-presales/bonita-jenkins-library@1.0.1') _
+	@Library('github.com/bonitasoft-presales/bonita-jenkins-library@1.0.1') _
 
 node('bcd-7101') {
 
@@ -48,6 +48,10 @@ node('bcd-7101') {
             bcd scenario:scenarioFile, args: "--extra-vars bcd_stack_id=${stackName} stack create", ignore_errors: false
         }
 
+		stage("Undeploy server") {
+            bcd scenario:scenarioFile, args: "--extra-vars bcd_stack_id=${stackName} stack undeploy", ignore_errors: true
+        }
+        
         stage("Deploy server") {
             def json_path = pwd(tmp: true) + '/bcd_stack.json'
             bcd scenario:scenarioFile, args: "--extra-vars bcd_stack_id=${stackName} -e bcd_stack_json=${json_path} stack deploy"
