@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:actormapping="http://www.bonitasoft.org/ns/actormapping/6.0" xmlns:configuration="http://www.bonitasoft.org/ns/studio/configuration" xmlns:connectorconfiguration="http://wwww.bonitasoft.org/model/connector/configuration" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:parameter="http://www.bonitasoft.org/ns/studio/parameter" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
-  <process:MainProcess xmi:id="_kU_UwE7rEemvtsSThmSSdw" name="NewProvider" version="1.1" author="laurent" bonitaVersion="7.9.4" bonitaModelVersion="7.9.0-002" configId="ACED000574001B4E657750726F7669646572372E392E302D303032372E392E347370">
+  <process:MainProcess xmi:id="_kU_UwE7rEemvtsSThmSSdw" name="NewProvider" version="1.1" author="laurent" bonitaVersion="7.10.1" bonitaModelVersion="7.10.0-001" configId="ACED000574001D4E657750726F7669646572372E31302E302D303031372E31302E317370">
     <elements xmi:type="process:Pool" xmi:id="_kU_UwU7rEemvtsSThmSSdw" name="New Provider" version="1.1">
       <elements xmi:type="process:Lane" xmi:id="_kU_Uwk7rEemvtsSThmSSdw" name="Production lane" actor="_kU_U207rEemvtsSThmSSdw">
         <elements xmi:type="process:StartEvent" xmi:id="_kU_Uw07rEemvtsSThmSSdw" name="Start" outgoing="_kU_U2E7rEemvtsSThmSSdw">
@@ -37,8 +37,8 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_Wfxb8k7sEemvtsSThmSSdw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_Wfxb8U7sEemvtsSThmSSdw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_Wfxb807sEemvtsSThmSSdw" name="" content="" returnTypeFixed="true"/>
-          <connectors xmi:type="process:Connector" xmi:id="_EEWxAGDpEemug8KuetJQKQ" name="emailProvNotif" definitionId="email" event="ON_FINISH" definitionVersion="1.0.0">
-            <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_EEWxAWDpEemug8KuetJQKQ" definitionId="email" version="1.0.0" modelVersion="7.8.3-001">
+          <connectors xmi:type="process:Connector" xmi:id="_EEWxAGDpEemug8KuetJQKQ" name="emailProvNotif" definitionId="email" event="ON_FINISH" definitionVersion="1.1.0">
+            <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_EEWxAWDpEemug8KuetJQKQ" definitionId="email" version="1.1.0" modelVersion="7.8.3-001">
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_EEWxAmDpEemug8KuetJQKQ" key="smtpHost">
                 <expression xmi:type="expression:Expression" xmi:id="_EEWxA2DpEemug8KuetJQKQ" name="smtpHost" content="smtpHost" type="TYPE_PARAMETER" returnTypeFixed="true">
                   <referencedElements xmi:type="parameter:Parameter" xmi:id="_5buNYBTtEeqpC4FUBGjFlw" name="smtpHost" typeClassname="java.lang.String"/>
@@ -117,6 +117,11 @@
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_EEWxJmDpEemug8KuetJQKQ" key="attachments">
                 <expression xmi:type="expression:ListExpression" xmi:id="_EEWxJ2DpEemug8KuetJQKQ"/>
               </parameters>
+              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_GIkHUU10Eeqki-7VsCiaKg" key="returnPath">
+                <expression xmi:type="expression:Expression" xmi:id="_GIkHcU10Eeqki-7VsCiaKg" name="smtpFrom" content="smtpFrom" type="TYPE_PARAMETER" returnTypeFixed="true">
+                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_GIkHck10Eeqki-7VsCiaKg" name="smtpFrom" typeClassname="java.lang.String"/>
+                </expression>
+              </parameters>
             </configuration>
           </connectors>
           <loopCondition xmi:type="expression:Expression" xmi:id="_Wfxb9E7sEemvtsSThmSSdw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
@@ -131,8 +136,8 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_9T_wAk7rEemvtsSThmSSdw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_9T_wAU7rEemvtsSThmSSdw" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_9T_wA07rEemvtsSThmSSdw" name="" content="" returnTypeFixed="true"/>
-          <connectors xmi:type="process:Connector" xmi:id="_rAoqUGDnEemug8KuetJQKQ" name="emailNotif" definitionId="email" event="ON_ENTER" definitionVersion="1.0.0">
-            <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_rAoqUWDnEemug8KuetJQKQ" definitionId="email" version="1.0.0" modelVersion="7.8.3-001">
+          <connectors xmi:type="process:Connector" xmi:id="_rAoqUGDnEemug8KuetJQKQ" name="emailNotif" definitionId="email" event="ON_ENTER" definitionVersion="1.1.0">
+            <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_rAoqUWDnEemug8KuetJQKQ" definitionId="email" version="1.1.0" modelVersion="7.8.3-001">
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_rAoqUmDnEemug8KuetJQKQ" key="smtpHost">
                 <expression xmi:type="expression:Expression" xmi:id="_rAoqU2DnEemug8KuetJQKQ" name="smtpHost" content="smtpHost" type="TYPE_PARAMETER" returnTypeFixed="true">
                   <referencedElements xmi:type="parameter:Parameter" xmi:id="_eHnN4BTrEeqpC4FUBGjFlw" name="smtpHost" typeClassname="java.lang.String"/>
@@ -205,6 +210,11 @@
               </parameters>
               <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_rAoqc2DnEemug8KuetJQKQ" key="attachments">
                 <expression xmi:type="expression:ListExpression" xmi:id="_rAoqdGDnEemug8KuetJQKQ"/>
+              </parameters>
+              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_GIkuZ010Eeqki-7VsCiaKg" key="returnPath">
+                <expression xmi:type="expression:Expression" xmi:id="_GIkuaE10Eeqki-7VsCiaKg" name="smtpFrom" content="smtpFrom" type="TYPE_PARAMETER" returnTypeFixed="true">
+                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_GIkuaU10Eeqki-7VsCiaKg" name="smtpFrom" typeClassname="java.lang.String"/>
+                </expression>
               </parameters>
             </configuration>
           </connectors>
@@ -446,7 +456,7 @@
       <actors xmi:type="process:Actor" xmi:id="_QR2rsE7tEemvtsSThmSSdw" name="accounting"/>
       <actors xmi:type="process:Actor" xmi:id="_SlErgE7tEemvtsSThmSSdw" name="IT"/>
       <actors xmi:type="process:Actor" xmi:id="_9Ttr0GzqEemWxsZT7LFAsQ" documentation="actor that can create/update providers" name="provider write" initiator="true"/>
-      <configurations xmi:type="configuration:Configuration" xmi:id="_I5VXIFVdEemXlfhOZ6Au8g" name="Qualification" version="7.9.0-002" username="walter.bates" password="bpm">
+      <configurations xmi:type="configuration:Configuration" xmi:id="_I5VXIFVdEemXlfhOZ6Au8g" name="Qualification" version="7.10.0-001" username="walter.bates" password="bpm">
         <actorMappings xmi:type="actormapping:ActorMappingsType" xmi:id="_I5V-MFVdEemXlfhOZ6Au8g">
           <actorMapping xmi:type="actormapping:ActorMapping" xmi:id="_I5V-MVVdEemXlfhOZ6Au8g" name="Employee actor">
             <groups xmi:type="actormapping:Groups" xmi:id="_I5V-MlVdEemXlfhOZ6Au8g"/>
@@ -481,12 +491,12 @@
             </users>
           </actorMapping>
         </actorMappings>
-        <definitionMappings xmi:type="configuration:DefinitionMapping" xmi:id="_toA8QGDnEemug8KuetJQKQ" type="CONNECTOR" definitionId="email" definitionVersion="1.0.0" implementationId="email-impl" implementationVersion="1.1.1"/>
+        <definitionMappings xmi:type="configuration:DefinitionMapping" xmi:id="_GI3pQE10Eeqki-7VsCiaKg" type="CONNECTOR" definitionId="email" definitionVersion="1.1.0" implementationId="email-impl" implementationVersion="1.2.1"/>
         <processDependencies xmi:type="configuration:FragmentContainer" xmi:id="_I5VXIVVdEemXlfhOZ6Au8g" id="ACTOR_FILTER"/>
         <processDependencies xmi:type="configuration:FragmentContainer" xmi:id="_I5VXIlVdEemXlfhOZ6Au8g" id="CONNECTOR">
-          <children xmi:type="configuration:FragmentContainer" xmi:id="_2FcUMPD1EemmpKFEoDWBpg" id="email-impl-1.1.1">
-            <fragments xmi:type="configuration:Fragment" xmi:id="_2Fq9sPD1EemmpKFEoDWBpg" key="email-impl -- 1.1.1" value="bonita-connector-email-1.1.1.jar" type="CONNECTOR"/>
-            <fragments xmi:type="configuration:Fragment" xmi:id="_2Fq9sfD1EemmpKFEoDWBpg" key="email-impl -- 1.1.1" value="mail-1.4.7.jar" type="CONNECTOR"/>
+          <children xmi:type="configuration:FragmentContainer" xmi:id="_GJpFUE10Eeqki-7VsCiaKg" id="email-impl-1.2.1">
+            <fragments xmi:type="configuration:Fragment" xmi:id="_GJt90E10Eeqki-7VsCiaKg" key="email-impl -- 1.2.1" value="bonita-connector-email-1.2.1.jar" type="CONNECTOR"/>
+            <fragments xmi:type="configuration:Fragment" xmi:id="_GJt90U10Eeqki-7VsCiaKg" key="email-impl -- 1.2.1" value="mail-1.4.7.jar" type="CONNECTOR"/>
           </children>
         </processDependencies>
         <processDependencies xmi:type="configuration:FragmentContainer" xmi:id="_I5VXI1VdEemXlfhOZ6Au8g" id="DATA_TYPES"/>
@@ -509,7 +519,7 @@
         <parameters xmi:type="parameter:Parameter" xmi:id="_t8ElJRTrEeqpC4FUBGjFlw" name="smtpFrom" value="walter.bates@acme.com" typeClassname="java.lang.String"/>
         <parameters xmi:type="parameter:Parameter" xmi:id="_ByvisBTuEeqpC4FUBGjFlw" name="smtpStartTLS" value="false" typeClassname="java.lang.Boolean"/>
       </configurations>
-      <configurations xmi:type="configuration:Configuration" xmi:id="_W3VRwHJWEemJfbkkQnA0vg" name="bonita" version="7.9.0-002" username="walter.bates" password="bpm">
+      <configurations xmi:type="configuration:Configuration" xmi:id="_W3VRwHJWEemJfbkkQnA0vg" name="bonita" version="7.10.0-001" username="walter.bates" password="bpm">
         <actorMappings xmi:type="actormapping:ActorMappingsType" xmi:id="_W3V40HJWEemJfbkkQnA0vg">
           <actorMapping xmi:type="actormapping:ActorMapping" xmi:id="_W3V40XJWEemJfbkkQnA0vg" name="Employee actor">
             <groups xmi:type="actormapping:Groups" xmi:id="_W3V40nJWEemJfbkkQnA0vg"/>
@@ -536,12 +546,12 @@
             <users xmi:type="actormapping:Users" xmi:id="_W3V45HJWEemJfbkkQnA0vg"/>
           </actorMapping>
         </actorMappings>
-        <definitionMappings xmi:type="configuration:DefinitionMapping" xmi:id="_W3VRwXJWEemJfbkkQnA0vg" type="CONNECTOR" definitionId="email" definitionVersion="1.0.0" implementationId="email-impl" implementationVersion="1.1.1"/>
+        <definitionMappings xmi:type="configuration:DefinitionMapping" xmi:id="_GJyPQE10Eeqki-7VsCiaKg" type="CONNECTOR" definitionId="email" definitionVersion="1.1.0" implementationId="email-impl" implementationVersion="1.2.1"/>
         <processDependencies xmi:type="configuration:FragmentContainer" xmi:id="_W3VRwnJWEemJfbkkQnA0vg" id="ACTOR_FILTER"/>
         <processDependencies xmi:type="configuration:FragmentContainer" xmi:id="_W3VRw3JWEemJfbkkQnA0vg" id="CONNECTOR">
-          <children xmi:type="configuration:FragmentContainer" xmi:id="_2GEmUPD1EemmpKFEoDWBpg" id="email-impl-1.1.1">
-            <fragments xmi:type="configuration:Fragment" xmi:id="_2GQMgPD1EemmpKFEoDWBpg" key="email-impl -- 1.1.1" value="bonita-connector-email-1.1.1.jar" type="CONNECTOR"/>
-            <fragments xmi:type="configuration:Fragment" xmi:id="_2GQzkPD1EemmpKFEoDWBpg" key="email-impl -- 1.1.1" value="mail-1.4.7.jar" type="CONNECTOR"/>
+          <children xmi:type="configuration:FragmentContainer" xmi:id="_GKNtEE10Eeqki-7VsCiaKg" id="email-impl-1.2.1">
+            <fragments xmi:type="configuration:Fragment" xmi:id="_GKQwYE10Eeqki-7VsCiaKg" key="email-impl -- 1.2.1" value="bonita-connector-email-1.2.1.jar" type="CONNECTOR"/>
+            <fragments xmi:type="configuration:Fragment" xmi:id="_GKQwYU10Eeqki-7VsCiaKg" key="email-impl -- 1.2.1" value="mail-1.4.7.jar" type="CONNECTOR"/>
           </children>
         </processDependencies>
         <processDependencies xmi:type="configuration:FragmentContainer" xmi:id="_W3VRx3JWEemJfbkkQnA0vg" id="DATA_TYPES"/>
@@ -556,6 +566,13 @@
         <applicationDependencies xmi:type="configuration:FragmentContainer" xmi:id="_W3VRzHJWEemJfbkkQnA0vg" id="OTHER"/>
         <parameters xmi:type="parameter:Parameter" xmi:id="_W3V453JWEemJfbkkQnA0vg" name="smtpEmail" typeClassname="java.lang.String" description="Notification email for reminders"/>
         <parameters xmi:type="parameter:Parameter" xmi:id="_b6mz0Mo5Eemu_MiKGRRO3g" name="appUrl" typeClassname="java.lang.String"/>
+        <parameters xmi:type="parameter:Parameter" xmi:id="_GKTMoE10Eeqki-7VsCiaKg" name="smtpHost" typeClassname="java.lang.String"/>
+        <parameters xmi:type="parameter:Parameter" xmi:id="_GKTMoU10Eeqki-7VsCiaKg" name="smtpPort" typeClassname="java.lang.Integer"/>
+        <parameters xmi:type="parameter:Parameter" xmi:id="_GKTMok10Eeqki-7VsCiaKg" name="smtpSSL" typeClassname="java.lang.Boolean"/>
+        <parameters xmi:type="parameter:Parameter" xmi:id="_GKTMo010Eeqki-7VsCiaKg" name="smtpUserName" typeClassname="java.lang.String"/>
+        <parameters xmi:type="parameter:Parameter" xmi:id="_GKTMpE10Eeqki-7VsCiaKg" name="smtpUserPassword" typeClassname="java.lang.String"/>
+        <parameters xmi:type="parameter:Parameter" xmi:id="_GKTMpU10Eeqki-7VsCiaKg" name="smtpFrom" typeClassname="java.lang.String"/>
+        <parameters xmi:type="parameter:Parameter" xmi:id="_GKTMpk10Eeqki-7VsCiaKg" name="smtpStartTLS" typeClassname="java.lang.Boolean"/>
       </configurations>
       <parameters xmi:type="parameter:Parameter" xmi:id="_aa-8IGDmEemug8KuetJQKQ" name="smtpEmail" typeClassname="java.lang.String" description="Notification email for reminders"/>
       <parameters xmi:type="parameter:Parameter" xmi:id="_wblEkHYmEema-ODeSVfSTw" name="appUrl" typeClassname="java.lang.String"/>

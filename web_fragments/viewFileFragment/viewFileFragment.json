@@ -1,99 +1,104 @@
 {
-  "designerVersion" : "1.9.24",
-  "previousDesignerVersion" : "1.8.39",
+  "designerVersion" : "1.10.18",
+  "previousDesignerVersion" : "1.9.24",
   "id" : "viewFileFragment",
   "name" : "viewFileFragment",
-  "lastUpdate" : 1562678077281,
-  "rows" : [ [ {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 12,
-      "md" : 3,
-      "lg" : 6
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
+  "lastUpdate" : 1581497156436,
+  "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 3,
+          "lg" : 6
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "<label>{{label | uiTranslate}}</label>"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : ""
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          }
+        },
+        "reference" : "1564d442-60a9-4c0b-b52b-fd557714211a",
+        "hasValidationError" : false,
+        "id" : "pbText"
       },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "allowHTML" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "text" : {
-        "type" : "interpolation",
-        "value" : "<label>{{label | uiTranslate}}</label>"
-      },
-      "alignment" : {
-        "type" : "constant",
-        "value" : "left"
-      },
-      "labelHidden" : {
-        "type" : "constant",
-        "value" : true
-      },
-      "label" : {
-        "type" : "interpolation",
-        "value" : ""
-      },
-      "labelPosition" : {
-        "type" : "constant",
-        "value" : "top"
-      },
-      "labelWidth" : {
-        "type" : "constant",
-        "value" : 4
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 9,
+          "lg" : 6
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "Process document"
+          },
+          "url" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "document" : {
+            "type" : "variable",
+            "value" : "fileRef"
+          },
+          "showPreview" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "bb5271cd-ceb7-407a-8690-c9496b018a62",
+        "hasValidationError" : false,
+        "id" : "pbFileViewer"
       }
-    },
-    "reference" : "1564d442-60a9-4c0b-b52b-fd557714211a",
-    "hasValidationError" : false,
-    "id" : "pbText"
-  }, {
-    "type" : "component",
-    "dimension" : {
-      "xs" : 12,
-      "sm" : 12,
-      "md" : 9,
-      "lg" : 6
-    },
-    "propertyValues" : {
-      "cssClasses" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "hidden" : {
-        "type" : "constant",
-        "value" : false
-      },
-      "type" : {
-        "type" : "constant",
-        "value" : "Process document"
-      },
-      "url" : {
-        "type" : "constant",
-        "value" : ""
-      },
-      "document" : {
-        "type" : "variable",
-        "value" : "fileRef"
-      },
-      "showPreview" : {
-        "type" : "constant",
-        "value" : true
-      }
-    },
-    "reference" : "bb5271cd-ceb7-407a-8690-c9496b018a62",
-    "hasValidationError" : false,
-    "id" : "pbFileViewer"
-  } ] ],
+    ]
+  ],
   "assets" : [ ],
   "inactiveAssets" : [ ],
-  "data" : {
+  "variables" : {
     "label" : {
       "type" : "constant",
       "exposed" : true

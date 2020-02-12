@@ -6,8 +6,6 @@ import java.time.LocalDateTime
 import java.time.ZoneOffset
 import java.util.logging.Logger
 
-import javax.xml.ws.soap.Addressing
-
 import org.bonitasoft.engine.api.APIClient
 import org.bonitasoft.engine.api.ProcessAPI
 import org.bonitasoft.engine.bpm.contract.FileInputValue

@@ -1,3 +1,4 @@
+
 bin
 .classpath
 /src-providedGroovy
@@ -27,3 +28,6 @@ node_modules/
 
 #only used as user preferences
 /database_connectors_properties
+
+
+!/web_widgets/*/*.ctrl.js
