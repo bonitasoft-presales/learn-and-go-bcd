@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:actormapping="http://www.bonitasoft.org/ns/actormapping/6.0" xmlns:configuration="http://www.bonitasoft.org/ns/studio/configuration" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
-  <process:MainProcess xmi:id="_qwfyMF6aEemHa8FXS6_XEg" name="EditProvider" author="Alejandro" bonitaVersion="7.10.5" bonitaModelVersion="7.10.0-001" configId="ACED000574001E4564697450726F7669646572372E31302E302D303031372E31302E357370">
+  <process:MainProcess xmi:id="_qwfyMF6aEemHa8FXS6_XEg" name="EditProvider" author="Alejandro" bonitaVersion="7.11.2" bonitaModelVersion="7.11.1-001" configId="ACED000574001E4564697450726F7669646572372E31312E312D303031372E31312E327370">
     <elements xmi:type="process:Pool" xmi:id="_qwfyMV6aEemHa8FXS6_XEg" name="Edit Provider">
       <elements xmi:type="process:Lane" xmi:id="_qwfyMl6aEemHa8FXS6_XEg" name="Employee lane" actor="_I9tNwGzrEemWxsZT7LFAsQ">
         <elements xmi:type="process:StartEvent" xmi:id="_qwfyM16aEemHa8FXS6_XEg" name="Start1" outgoing="_tSl7gF6aEemHa8FXS6_XEg">
@@ -34,7 +34,7 @@
       </connections>
       <actors xmi:type="process:Actor" xmi:id="_qwfyS16aEemHa8FXS6_XEg" documentation="This is an example of actor that is mapped to any ACME users" name="Employee actor"/>
       <actors xmi:type="process:Actor" xmi:id="_I9tNwGzrEemWxsZT7LFAsQ" documentation="can change provider informations" name="provider write" initiator="true"/>
-      <configurations xmi:type="configuration:Configuration" xmi:id="_NjLcEF6dEemHa8FXS6_XEg" name="Qualification" version="7.10.0-001" username="walter.bates" password="bpm">
+      <configurations xmi:type="configuration:Configuration" xmi:id="_NjLcEF6dEemHa8FXS6_XEg" name="Qualification" version="7.11.1-001" username="walter.bates" password="bpm">
         <actorMappings xmi:type="actormapping:ActorMappingsType" xmi:id="_NjLcGV6dEemHa8FXS6_XEg">
           <actorMapping xmi:type="actormapping:ActorMapping" xmi:id="_NjLcGl6dEemHa8FXS6_XEg" name="Employee actor">
             <groups xmi:type="actormapping:Groups" xmi:id="_NjLcG16dEemHa8FXS6_XEg"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<businessObjectModel modelVersion="1.0" productVersion="7.8.3">
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.8.3">
     <businessObjects>
         <businessObject qualifiedName="com.company.model.Contact">
             <description>Provider's contact description</description>
@@ -106,7 +106,7 @@
                 </uniqueConstraint>
             </uniqueConstraints>
             <queries>
-                <query name="autocompSearch" content="SELECT p &#xA;FROM Provider p &#xA;WHERE concat(p.name , ' - ', p.city ,' ', p.country) =  :qParam&#xA;ORDER BY p.persistenceId ASC" returnType="java.util.List">
+                <query name="autocompSearch" content="SELECT p &#10;FROM Provider p &#10;WHERE concat(p.name , ' - ', p.city ,' ', p.country) =  :qParam&#10;ORDER BY p.persistenceId ASC" returnType="java.util.List">
                     <queryParameters>
                         <queryParameter name="qParam" className="java.lang.String"/>
                     </queryParameters>
