@@ -1,8 +1,10 @@
 @Library('github.com/bonitasoft-presales/bonita-jenkins-library@1.0.1') _
 
 node('bcd-7114') {
+	
+	def bonitaVersion='7.11.4'
 
-    def scenarioFile = "/home/bonita/bonita-continuous-delivery/scenarios/scenario-7114-ec2.yml"
+    def scenarioFile = "/home/bonita/bonita-continuous-delivery/scenarios/scenario-ec2.yml"
     def bonitaConfiguration = "Qualification"
 
     // used to archive artifacts
@@ -30,6 +32,8 @@ node('bcd-7114') {
     if ("${debugMode}".toBoolean()) {
         debug_flag = '-X'
     }
+    
+    def extraVars = "--extra-vars bcd_stack_id=${stackName} --extra-vars bonita-version=${bonitaVersion}"
 
   ansiColor('xterm') {
     timestamps {
@@ -41,20 +45,20 @@ node('bcd-7114') {
         }
 
         stage("Build LAs") {
-            bcd scenario:scenarioFile, args: "--extra-vars bcd_stack_id=${stackName} livingapp build ${debug_flag} -p ${WORKSPACE} --environment ${bonitaConfiguration}"
+            bcd scenario:scenarioFile, args: "${extraVars} livingapp build ${debug_flag} -p ${WORKSPACE} --environment ${bonitaConfiguration}"
         }
 
         stage("Create stack") {
-            bcd scenario:scenarioFile, args: "--extra-vars bcd_stack_id=${stackName} stack create", ignore_errors: false
+            bcd scenario:scenarioFile, args: "${extraVars} stack create", ignore_errors: false
         }
 
 		stage("Undeploy server") {
-            bcd scenario:scenarioFile, args: "--extra-vars bcd_stack_id=${stackName} stack undeploy", ignore_errors: true
+            bcd scenario:scenarioFile, args: "${extraVars} stack undeploy", ignore_errors: true
         }
         
         stage("Deploy server") {
             def json_path = pwd(tmp: true) + '/bcd_stack.json'
-            bcd scenario:scenarioFile, args: "--extra-vars bcd_stack_id=${stackName} -e bcd_stack_json=${json_path} stack deploy"
+            bcd scenario:scenarioFile, args: "${extraVars} -e bcd_stack_json=${json_path} stack deploy"
             // set build description using bcd_stack.json file
             def props = readJSON file: json_path
             currentBuild.description = "<a href='${props.bonita_url}'>${props.bcd_stack_id}</a>"
@@ -67,10 +71,10 @@ node('bcd-7114') {
             if (useBConf){
                 def bconf_files = findFiles(glob: "target/*_${jobBaseName}-${bonitaConfiguration}-*.bconf")
                 println "bconf file artifact: ${bconf_files}"
-                bcd scenario:scenarioFile, args: "--extra-vars bcd_stack_id=${stackName} livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path} -c ${WORKSPACE}/${bconf_files[0].path}"
+                bcd scenario:scenarioFile, args: "${extraVars} livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path} -c ${WORKSPACE}/${bconf_files[0].path}"
             }
             else{
-                bcd scenario:scenarioFile, args: "--extra-vars bcd_stack_id=${stackName} livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path}"
+                bcd scenario:scenarioFile, args: "${extraVars} livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path}"
             }
         }
 
