@@ -2,9 +2,8 @@
 
 def version = "7.11.4"
 def versionShortened = "7114"
-def versionUnderscored = "7_11_4"
 def nodeName = "bcd-${versionShortened}"
-	
+
 node("${nodeName}") {
 
 	def scenarioFile = "/home/bonita/bonita-continuous-delivery/scenarios/scenario-ec2.yml"
