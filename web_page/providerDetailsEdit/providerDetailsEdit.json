@@ -3,7 +3,7 @@
   "previousDesignerVersion" : "1.10.18",
   "id" : "providerDetailsEdit",
   "name" : "providerDetailsEdit",
-  "lastUpdate" : 1603185716670,
+  "lastUpdate" : 1606735814141,
   "rows" : [
     [
       {
@@ -71,7 +71,7 @@
                     "propertyValues" : {
                       "cssClasses" : {
                         "type" : "constant",
-                        "value" : "buttonPadding blueRightSeparator"
+                        "value" : "buttonPadding"
                       },
                       "hidden" : {
                         "type" : "constant",
@@ -169,12 +169,12 @@
                               "value" : ""
                             },
                             "hidden" : {
-                              "type" : "expression",
-                              "value" : "!canEdit"
-                            },
-                            "disabled" : {
                               "type" : "constant",
                               "value" : false
+                            },
+                            "disabled" : {
+                              "type" : "expression",
+                              "value" : "!canEdit"
                             },
                             "label" : {
                               "type" : "interpolation",
@@ -1040,17 +1040,17 @@
   ],
   "assets" : [
     {
-      "id" : "1055ad37-f92d-4498-8a70-cc274595d0a3",
-      "name" : "style.css",
-      "type" : "css",
-      "order" : 0,
-      "external" : false
-    },
-    {
       "id" : "d3448f83-1450-46dc-a06d-dd213f5b4673",
       "name" : "myCss.css",
       "type" : "css",
       "order" : 1,
+      "external" : false
+    },
+    {
+      "id" : "1055ad37-f92d-4498-8a70-cc274595d0a3",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
       "external" : false
     },
     {
@@ -1126,5 +1126,5 @@
   "uuid" : "517d6f4a-628a-4b6c-994f-9ed1b084f7c1",
   "type" : "page",
   "description" : "Page generated with Bonita UI designer",
-  "displayName" : "providerDetails"
+  "displayName" : "Provider Details Edit page"
 }
