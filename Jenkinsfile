@@ -33,7 +33,7 @@ node('bcd-7114') {
         debug_flag = '-X'
     }
     
-    def extraVars = "--extra-vars bcd_stack_id=${stackName} --extra-vars bonita-version=${bonitaVersion}"
+    def extraVars = "--extra-vars bcd_stack_id=${stackName} --extra-vars bonita_version=${bonitaVersion}"
 
   ansiColor('xterm') {
     timestamps {
