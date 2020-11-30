@@ -71,10 +71,10 @@ node('bcd-7114') {
             if (useBConf){
                 def bconf_files = findFiles(glob: "target/*_${jobBaseName}-${bonitaConfiguration}-*.bconf")
                 println "bconf file artifact: ${bconf_files}"
-                bcd scenario:scenarioFile, args: "--extra-vars bcd_stack_id=${stackName} livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path} -c ${WORKSPACE}/${bconf_files[0].path}"
+                bcd scenario:scenarioFile, args: "--extra-vars bcd_stack_id=${stackName} livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path} -c ${WORKSPACE}/${bconf_files[0].path} --development-mode"
             }
             else{
-                bcd scenario:scenarioFile, args: "--extra-vars bcd_stack_id=${stackName} livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path}"
+                bcd scenario:scenarioFile, args: "--extra-vars bcd_stack_id=${stackName} livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path} --development-mode"
             }
         }
 
