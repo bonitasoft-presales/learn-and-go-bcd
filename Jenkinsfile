@@ -1,10 +1,13 @@
 @Library('github.com/bonitasoft-presales/bonita-jenkins-library@1.0.1') _
 
-node('bcd-7114') {
+def version = "7.11.4"
+def versionShortened = "7114"
+def versionUnderscored = "7_11_4"
+def nodeName = "bcd-${versionShortened}"
+	
+node("${nodeName}") {
 
-	def bonitaVersion='7.11.4'
-
-    def scenarioFile = "/home/bonita/bonita-continuous-delivery/scenarios/scenario-ec2.yml"
+	def scenarioFile = "/home/bonita/bonita-continuous-delivery/scenarios/scenario-ec2.yml"
     def bonitaConfiguration = "Qualification"
 
     // used to archive artifacts
@@ -19,7 +22,7 @@ node('bcd-7114') {
     def normalizedBranchName = branchName.toLowerCase().replaceAll('-','_')
 
     //bcd_stack_id overrides scenario value
-    def stackName = "${normalizedGitRepoName}_7101_${normalizedBranchName}" 
+    def stackName = "${normalizedGitRepoName}_${normalizedBranchName}_${versionShortened}"
 
     // set to true/false if bonitaConfiguration requires a .bconf file
     // e.g. configuration has parameters
@@ -32,7 +35,7 @@ node('bcd-7114') {
     if ("${debugMode}".toBoolean()) {
         debug_flag = '-X'
     }
-
+    
     def extraVars = "--extra-vars bcd_stack_id=${stackName} --extra-vars bonita_version=${version}"
 
   ansiColor('xterm') {
@@ -71,10 +74,10 @@ node('bcd-7114') {
             if (useBConf){
                 def bconf_files = findFiles(glob: "target/*_${jobBaseName}-${bonitaConfiguration}-*.bconf")
                 println "bconf file artifact: ${bconf_files}"
-                bcd scenario:scenarioFile, args: "--extra-vars bcd_stack_id=${stackName} livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path} -c ${WORKSPACE}/${bconf_files[0].path} --development-mode"
+                bcd scenario:scenarioFile, args: "${extraVars} livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path} -c ${WORKSPACE}/${bconf_files[0].path} --development-mode"
             }
             else{
-                bcd scenario:scenarioFile, args: "--extra-vars bcd_stack_id=${stackName} livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path} --development-mode"
+                bcd scenario:scenarioFile, args: "${extraVars} livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path} --development-mode"
             }
         }
 
