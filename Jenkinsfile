@@ -5,8 +5,7 @@ def versionShortened = "7114"
 def nodeName = "bcd-${versionShortened}"
 
 node("${nodeName}") {
-
-	def scenarioFile = "/home/bonita/bonita-continuous-delivery/scenarios/scenario-ec2.yml"
+    def scenarioFile = "/home/bonita/bonita-continuous-delivery/scenarios/scenario-ec2.yml"
     def bonitaConfiguration = "Qualification"
 
     // used to archive artifacts
