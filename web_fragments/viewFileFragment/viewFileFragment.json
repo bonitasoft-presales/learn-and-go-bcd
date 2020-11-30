@@ -1,9 +1,9 @@
 {
-  "designerVersion" : "1.10.18",
-  "previousDesignerVersion" : "1.9.24",
+  "designerVersion" : "1.11.46",
+  "previousDesignerVersion" : "1.10.18",
   "id" : "viewFileFragment",
   "name" : "viewFileFragment",
-  "lastUpdate" : 1581497156436,
+  "lastUpdate" : 1603185716806,
   "rows" : [
     [
       {
@@ -101,10 +101,16 @@
   "variables" : {
     "label" : {
       "type" : "constant",
+      "value" : [
+        ""
+      ],
       "exposed" : true
     },
     "fileRef" : {
       "type" : "constant",
+      "value" : [
+        ""
+      ],
       "exposed" : true
     }
   },

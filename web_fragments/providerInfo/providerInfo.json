@@ -1,9 +1,9 @@
 {
-  "designerVersion" : "1.10.18",
-  "previousDesignerVersion" : "1.9.24",
+  "designerVersion" : "1.11.46",
+  "previousDesignerVersion" : "1.10.18",
   "id" : "providerInfo",
   "name" : "providerInfo",
-  "lastUpdate" : 1581497156418,
+  "lastUpdate" : 1603185716779,
   "rows" : [
     [
       {
@@ -466,6 +466,9 @@
     },
     "provider" : {
       "type" : "constant",
+      "value" : [
+        ""
+      ],
       "exposed" : true
     },
     "context" : {

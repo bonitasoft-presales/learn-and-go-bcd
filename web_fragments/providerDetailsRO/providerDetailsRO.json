@@ -1,9 +1,9 @@
 {
-  "designerVersion" : "1.10.18",
-  "previousDesignerVersion" : "1.9.24",
+  "designerVersion" : "1.11.46",
+  "previousDesignerVersion" : "1.10.18",
   "id" : "providerDetailsRO",
   "name" : "providerDetailsRO",
-  "lastUpdate" : 1581497156469,
+  "lastUpdate" : 1603185716843,
   "rows" : [
     [
       {
@@ -2256,6 +2256,9 @@
   "variables" : {
     "provider" : {
       "type" : "constant",
+      "value" : [
+        ""
+      ],
       "exposed" : true
     },
     "caseContext" : {

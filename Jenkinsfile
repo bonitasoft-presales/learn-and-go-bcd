@@ -1,8 +1,8 @@
-	@Library('github.com/bonitasoft-presales/bonita-jenkins-library@1.0.1') _
+@Library('github.com/bonitasoft-presales/bonita-jenkins-library@1.0.1') _
 
-node('bcd-7105') {
+node('bcd-7112') {
 
-    def scenarioFile = "/home/bonita/bonita-continuous-delivery/scenarios/scenario-7105-ec2.yml"
+    def scenarioFile = "/home/bonita/bonita-continuous-delivery/scenarios/scenario-7112-ec2.yml"
     def bonitaConfiguration = "Qualification"
 
     // used to archive artifacts

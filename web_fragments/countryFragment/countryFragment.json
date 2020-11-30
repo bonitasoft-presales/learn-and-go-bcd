@@ -1,9 +1,9 @@
 {
-  "designerVersion" : "1.10.18",
-  "previousDesignerVersion" : "1.9.24",
+  "designerVersion" : "1.11.46",
+  "previousDesignerVersion" : "1.10.18",
   "id" : "countryFragment",
   "name" : "countryFragment",
-  "lastUpdate" : 1581497156454,
+  "lastUpdate" : 1603185716830,
   "rows" : [
     [
       {
@@ -79,6 +79,9 @@
   "variables" : {
     "country" : {
       "type" : "constant",
+      "value" : [
+        ""
+      ],
       "exposed" : true
     },
     "countries" : {
@@ -334,6 +337,9 @@
     },
     "label" : {
       "type" : "constant",
+      "value" : [
+        ""
+      ],
       "exposed" : true
     }
   },
