@@ -3,7 +3,7 @@
   "previousDesignerVersion" : "1.5.10",
   "id" : "customLivingApplicationIFrameV4",
   "name" : "livingApplicationIFrameV4",
-  "lastUpdate" : 1581497156252,
+  "lastUpdate" : 1570457741956,
   "template" : "@customLivingApplicationIFrameV4.tpl.html",
   "controller" : "@customLivingApplicationIFrameV4.ctrl.js",
   "description" : "LivingApplicationIFrameV4 display the pages targeted by the LivingApplicationMenu.",
