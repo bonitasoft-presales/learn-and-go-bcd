@@ -1,9 +1,10 @@
 @Library('github.com/bonitasoft-presales/bonita-jenkins-library@1.0.1') _
 
-node('bcd-7114') {
-	
-	def bonitaVersion='7.11.4'
+def version = "7.11.4"
+def versionShortened = "7114"
+def nodeName = "bcd-${versionShortened}"
 
+node("${nodeName}") {
     def scenarioFile = "/home/bonita/bonita-continuous-delivery/scenarios/scenario-ec2.yml"
     def bonitaConfiguration = "Qualification"
 
@@ -19,7 +20,7 @@ node('bcd-7114') {
     def normalizedBranchName = branchName.toLowerCase().replaceAll('-','_')
 
     //bcd_stack_id overrides scenario value
-    def stackName = "${normalizedGitRepoName}_7101_${normalizedBranchName}" 
+    def stackName = "${normalizedGitRepoName}_${normalizedBranchName}_${versionShortened}"
 
     // set to true/false if bonitaConfiguration requires a .bconf file
     // e.g. configuration has parameters
@@ -33,7 +34,7 @@ node('bcd-7114') {
         debug_flag = '-X'
     }
     
-    def extraVars = "--extra-vars bcd_stack_id=${stackName} --extra-vars bonita_version=${bonitaVersion}"
+    def extraVars = "--extra-vars bcd_stack_id=${stackName} --extra-vars bonita_version=${version}"
 
   ansiColor('xterm') {
     timestamps {
