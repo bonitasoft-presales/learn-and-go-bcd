@@ -515,7 +515,7 @@
         <parameters xmi:type="parameter:Parameter" xmi:id="_t8ElIRTrEeqpC4FUBGjFlw" name="smtpPort" value="2525" typeClassname="java.lang.Integer"/>
         <parameters xmi:type="parameter:Parameter" xmi:id="_t8ElIhTrEeqpC4FUBGjFlw" name="smtpSSL" value="false" typeClassname="java.lang.Boolean"/>
         <parameters xmi:type="parameter:Parameter" xmi:id="_t8ElIxTrEeqpC4FUBGjFlw" name="smtpUserName" value="walter.bates" typeClassname="java.lang.String"/>
-        <parameters xmi:type="parameter:Parameter" xmi:id="_t8ElJBTrEeqpC4FUBGjFlw" name="smtpUserPassword" typeClassname="java.lang.String"/>
+        <parameters xmi:type="parameter:Parameter" xmi:id="_t8ElJBTrEeqpC4FUBGjFlw" name="smtpUserPassword" value="secret" typeClassname="java.lang.String"/>
         <parameters xmi:type="parameter:Parameter" xmi:id="_t8ElJRTrEeqpC4FUBGjFlw" name="smtpFrom" value="walter.bates@acme.com" typeClassname="java.lang.String"/>
         <parameters xmi:type="parameter:Parameter" xmi:id="_ByvisBTuEeqpC4FUBGjFlw" name="smtpStartTLS" value="false" typeClassname="java.lang.Boolean"/>
       </configurations>
