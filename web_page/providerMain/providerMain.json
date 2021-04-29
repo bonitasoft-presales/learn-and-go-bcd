@@ -1,9 +1,9 @@
 {
-  "designerVersion" : "1.11.46",
-  "previousDesignerVersion" : "1.10.18",
+  "modelVersion" : "2.0",
+  "previousArtifactVersion" : "1.11.46",
   "id" : "providerMain",
   "name" : "providerMain",
-  "lastUpdate" : 1603185716721,
+  "lastUpdate" : 1619695834031,
   "rows" : [
     [
       {
@@ -252,12 +252,16 @@
                   "value" : "providers"
                 },
                 "displayedKey" : {
-                  "type" : "constant",
+                  "type" : "interpolation",
                   "value" : "name + ' - ' + city + ' ' + country"
                 },
                 "value" : {
                   "type" : "variable",
                   "value" : "filtered"
+                },
+                "returnedKey" : {
+                  "type" : "interpolation",
+                  "value" : "name + ' - ' + city + ' ' + country"
                 }
               },
               "reference" : "9b7f03ab-5759-48c2-9b31-83306fe75cac",

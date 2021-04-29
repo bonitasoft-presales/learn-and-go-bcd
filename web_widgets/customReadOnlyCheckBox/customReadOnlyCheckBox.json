@@ -1,9 +1,9 @@
 {
-  "designerVersion" : "1.10.12",
-  "previousDesignerVersion" : "1.8.39",
+  "modelVersion" : "2.0",
+  "previousArtifactVersion" : "1.10.12",
   "id" : "customReadOnlyCheckBox",
   "name" : "readOnlyCheckBox",
-  "lastUpdate" : 1581497156264,
+  "lastUpdate" : 1619695833908,
   "template" : "@customReadOnlyCheckBox.tpl.html",
   "controller" : "@customReadOnlyCheckBox.ctrl.js",
   "custom" : true,

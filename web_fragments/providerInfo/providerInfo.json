@@ -1,9 +1,9 @@
 {
-  "designerVersion" : "1.11.46",
-  "previousDesignerVersion" : "1.10.18",
+  "modelVersion" : "2.0",
+  "previousArtifactVersion" : "1.11.46",
   "id" : "providerInfo",
   "name" : "providerInfo",
-  "lastUpdate" : 1603185716779,
+  "lastUpdate" : 1619695833763,
   "rows" : [
     [
       {

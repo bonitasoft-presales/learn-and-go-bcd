@@ -1,9 +1,9 @@
 {
-  "designerVersion" : "1.11.46",
-  "previousDesignerVersion" : "1.10.18",
+  "modelVersion" : "2.0",
+  "previousArtifactVersion" : "1.11.46",
   "id" : "countryFragment",
   "name" : "countryFragment",
-  "lastUpdate" : 1603185716830,
+  "lastUpdate" : 1619695833853,
   "rows" : [
     [
       {
