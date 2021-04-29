@@ -1,9 +1,9 @@
 {
-  "designerVersion" : "1.11.46",
-  "previousDesignerVersion" : "1.10.18",
+  "modelVersion" : "2.0",
+  "previousArtifactVersion" : "1.11.46",
   "id" : "LayoutBonitaV5",
   "name" : "BonitaLayoutV5",
-  "lastUpdate" : 1606297121228,
+  "lastUpdate" : 1619695833683,
   "rows" : [
     [
       {

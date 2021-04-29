@@ -1,9 +1,9 @@
 {
-  "designerVersion" : "1.11.46",
-  "previousDesignerVersion" : "1.10.18",
+  "modelVersion" : "2.0",
+  "previousArtifactVersion" : "1.11.46",
   "id" : "providerDetailsEdit",
   "name" : "providerDetailsEdit",
-  "lastUpdate" : 1606735814141,
+  "lastUpdate" : 1619695834016,
   "rows" : [
     [
       {
@@ -1040,17 +1040,17 @@
   ],
   "assets" : [
     {
-      "id" : "d3448f83-1450-46dc-a06d-dd213f5b4673",
-      "name" : "myCss.css",
-      "type" : "css",
-      "order" : 1,
-      "external" : false
-    },
-    {
       "id" : "1055ad37-f92d-4498-8a70-cc274595d0a3",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "d3448f83-1450-46dc-a06d-dd213f5b4673",
+      "name" : "myCss.css",
+      "type" : "css",
+      "order" : 1,
       "external" : false
     },
     {

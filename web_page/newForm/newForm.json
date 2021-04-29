@@ -1,9 +1,9 @@
 {
-  "designerVersion" : "1.11.46",
-  "previousDesignerVersion" : "1.10.18",
+  "modelVersion" : "2.0",
+  "previousArtifactVersion" : "1.11.46",
   "id" : "newForm",
   "name" : "newForm",
-  "lastUpdate" : 1603185716767,
+  "lastUpdate" : 1619695833822,
   "rows" : [
     [
       {
