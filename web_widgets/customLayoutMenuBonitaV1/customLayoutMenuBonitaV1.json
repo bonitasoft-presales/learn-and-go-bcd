@@ -1,13 +1,6 @@
 {
-  "modelVersion" : "2.0",
-  "previousArtifactVersion" : "1.10.12",
-  "id" : "customLayoutMenuBonitaV1",
-  "name" : "BonitaLayoutMenu",
-  "lastUpdate" : 1619695833608,
-  "template" : "@customLayoutMenuBonitaV1.tpl.html",
-  "controller" : "@customLayoutMenuBonitaV1.ctrl.js",
-  "description" : "This is the default bonita portal menu.",
-  "custom" : true,
+  "modelVersion" : "2.2",
+  "previousArtifactVersion" : "2.0",
   "properties" : [
     {
       "label" : "URL targeted by the menu",
@@ -34,6 +27,13 @@
       "bond" : "constant"
     }
   ],
+  "id" : "customLayoutMenuBonitaV1",
+  "name" : "BonitaLayoutMenu",
+  "lastUpdate" : 1637063286261,
+  "template" : "@customLayoutMenuBonitaV1.tpl.html",
+  "controller" : "@customLayoutMenuBonitaV1.ctrl.js",
+  "description" : "This is the default bonita portal menu.",
+  "custom" : true,
   "assets" : [
     {
       "id" : "b566d5f3-6ee0-4874-a0c6-a3ab37504f7c",

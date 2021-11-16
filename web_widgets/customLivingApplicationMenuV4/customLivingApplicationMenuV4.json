@@ -1,13 +1,6 @@
 {
-  "modelVersion" : "2.0",
-  "previousArtifactVersion" : "1.10.12",
-  "id" : "customLivingApplicationMenuV4",
-  "name" : "livingApplicationMenuV4",
-  "lastUpdate" : 1619695834125,
-  "template" : "@customLivingApplicationMenuV4.tpl.html",
-  "controller" : "@customLivingApplicationMenuV4.ctrl.js",
-  "description" : "LivingApplicationMenuV4 is an example of living application menu.",
-  "custom" : true,
+  "modelVersion" : "2.2",
+  "previousArtifactVersion" : "2.0",
   "properties" : [
     {
       "label" : "URL targeted by the menu",
@@ -16,6 +9,13 @@
       "bond" : "variable"
     }
   ],
+  "id" : "customLivingApplicationMenuV4",
+  "name" : "livingApplicationMenuV4",
+  "lastUpdate" : 1637063287052,
+  "template" : "@customLivingApplicationMenuV4.tpl.html",
+  "controller" : "@customLivingApplicationMenuV4.ctrl.js",
+  "description" : "LivingApplicationMenuV4 is an example of living application menu.",
+  "custom" : true,
   "assets" : [
     {
       "id" : "b566d5f3-6ee0-4874-a0c6-a3ab37504f7c",

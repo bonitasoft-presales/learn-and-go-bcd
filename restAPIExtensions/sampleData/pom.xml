@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.company.rest.api</groupId>
 	<artifactId>sampleData</artifactId>
@@ -10,16 +9,23 @@
 	<description>REST API to manage resourceName</description>
 
 	<properties>
-		<bonita.version>7.12.7</bonita.version>
-		<groovy.version>2.4.3-01</groovy.version>
+		<bonita.version>7.13.0</bonita.version>
+		<groovy-eclipse-compiler.version>3.7.0</groovy-eclipse-compiler.version>
+		<groovy-eclipse-batch.version>3.0.8-01</groovy-eclipse-batch.version>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
+		<maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
+		<java.version>11</java.version>
+		
+		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+		<spock.version>2.0-groovy-3.0</spock.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.bonitasoft.web</groupId>
 			<artifactId>bonita-web-extensions-sp</artifactId>
-			<version>${bonita.version}</version>
 			<scope>provided</scope>
 			<exclusions>
 				<exclusion>
@@ -31,13 +37,18 @@
 		<dependency>
 			<groupId>org.codehaus.groovy</groupId>
 			<artifactId>groovy-all</artifactId>
-			<version>2.4.16</version>
 			<scope>provided</scope>
+			<type>pom</type>
+			<exclusions>
+        <exclusion>
+          <artifactId>groovy-testng</artifactId>
+          <groupId>org.codehaus.groovy</groupId>
+        </exclusion>
+      </exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>1.6.1</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
@@ -69,7 +80,7 @@
 		<dependency>
 			<groupId>org.spockframework</groupId>
 			<artifactId>spock-core</artifactId>
-			<version>1.0-groovy-2.4</version>
+			<version>${spock.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency> <!-- enables mocking of classes (in addition to interfaces) -->
@@ -91,7 +102,29 @@
 			<version>1.6.1</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+      <groupId>org.codehaus.groovy</groupId>
+      <artifactId>groovy-dateutil</artifactId>
+      <scope>provided</scope>
+    </dependency>
+		<dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <scope>provided</scope>
+    </dependency>
 	</dependencies>
+
+	<dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.bonitasoft.runtime</groupId>
+        <artifactId>bonita-runtime-bom</artifactId>
+        <version>${bonita.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 
 	<build>
 		<finalName>${project.artifactId}</finalName>
@@ -108,22 +141,22 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.0</version>
+				<version>${maven-compiler-plugin.version}</version>
 				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
+					
+					
 					<compilerId>groovy-eclipse-compiler</compilerId>
 				</configuration>
 				<dependencies>
 					<dependency>
 						<groupId>org.codehaus.groovy</groupId>
 						<artifactId>groovy-eclipse-compiler</artifactId>
-						<version>3.3.0-01</version>
+						<version>${groovy-eclipse-compiler.version}</version>
 					</dependency>
 					<dependency>
 						<groupId>org.codehaus.groovy</groupId>
 						<artifactId>groovy-eclipse-batch</artifactId>
-						<version>2.4.16-02</version>
+						<version>${groovy-eclipse-batch.version}</version>
 					</dependency>
 				</dependencies>
 			</plugin>
@@ -151,5 +184,14 @@
 				</executions>
 			</plugin>
 		</plugins>
+
+		<pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${maven-surefire-plugin.version}</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
 	</build>
 </project>

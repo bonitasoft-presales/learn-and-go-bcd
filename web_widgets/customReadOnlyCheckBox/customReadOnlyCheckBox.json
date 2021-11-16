@@ -1,12 +1,6 @@
 {
-  "modelVersion" : "2.0",
-  "previousArtifactVersion" : "1.10.12",
-  "id" : "customReadOnlyCheckBox",
-  "name" : "readOnlyCheckBox",
-  "lastUpdate" : 1619695833908,
-  "template" : "@customReadOnlyCheckBox.tpl.html",
-  "controller" : "@customReadOnlyCheckBox.ctrl.js",
-  "custom" : true,
+  "modelVersion" : "2.2",
+  "previousArtifactVersion" : "2.0",
   "properties" : [
     {
       "label" : "Value",
@@ -24,6 +18,12 @@
       "bond" : "expression"
     }
   ],
+  "id" : "customReadOnlyCheckBox",
+  "name" : "readOnlyCheckBox",
+  "lastUpdate" : 1637063286744,
+  "template" : "@customReadOnlyCheckBox.tpl.html",
+  "controller" : "@customReadOnlyCheckBox.ctrl.js",
+  "custom" : true,
   "assets" : [ ],
   "requiredModules" : [ ],
   "type" : "widget",
