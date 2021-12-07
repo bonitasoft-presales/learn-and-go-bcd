@@ -2,7 +2,7 @@
 
 def bonitaVersion = "7.13.1"
 def bonitaVersionShortened = "7131"
-def nodeName = "bcd-${versionShortened}"
+def nodeName = "bcd-${bonitaVersionShortened}"
 
 node("${nodeName}") {
     def scenarioFile = "/home/bonita/bonita-continuous-delivery/scenarios/scenario-ec2.yml"
@@ -20,7 +20,7 @@ node("${nodeName}") {
     def normalizedBranchName = branchName.toLowerCase().replaceAll('-','_')
 
     //bcd_stack_id overrides scenario value
-    def stackName = "${normalizedGitRepoName}_${normalizedBranchName}_${versionShortened}"
+    def stackName = "${normalizedGitRepoName}_${normalizedBranchName}_${bonitaVersionShortened}"
 
     // set to true/false if bonitaConfiguration requires a .bconf file
     // e.g. configuration has parameters
@@ -99,10 +99,10 @@ ansible-playbook bonita.yaml -i aws/private-inventory-${stackName}.yaml
             if (useBConf){
                 def bconf_files = findFiles(glob: "target/*_${jobBaseName}-${bonitaConfiguration}-*.bconf")
                 println "bconf file artifact: ${bconf_files}"
-                bcd scenario:scenarioFile, args: "${extraVars} livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path} -c ${WORKSPACE}/${bconf_files[0].path} --development-mode"
+                bcd scenario:scenarioFile, args: "${extraVars} --extra-vars bonita_url=http://${yamlStackProps.privateDnsName}:8081/bonita livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path} -c ${WORKSPACE}/${bconf_files[0].path} --development-mode"
             }
             else{
-                bcd scenario:scenarioFile, args: "${extraVars} livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path} --development-mode"
+                bcd scenario:scenarioFile, args: "${extraVars} --extra-vars bonita_url=http://${yamlStackProps.privateDnsName}:8081/bonita livingapp deploy ${debug_flag} -p ${WORKSPACE}/${zip_files[0].path} --development-mode"
             }
         }
 
