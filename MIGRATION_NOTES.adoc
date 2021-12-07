@@ -1,3 +1,9 @@
+== Migration notes (December 7, 2021 at 3:12:17 PM CET)
+
+=== Updates
+
+* `bonita-project-maven-plugin.version` has been updated from `0.0.3` to `0.0.4`.
+
 == Migration notes (November 16, 2021 at 12:48:07 PM CET)
 
 === Additions

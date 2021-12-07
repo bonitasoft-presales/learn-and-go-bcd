@@ -1,7 +1,7 @@
 @Library('github.com/bonitasoft-presales/bonita-jenkins-library@1.0.1') _
 
-def version = "7.12.2"
-def versionShortened = "7122"
+def version = "7.13.1"
+def versionShortened = "7131"
 def nodeName = "bcd-${versionShortened}"
 
 node("${nodeName}") {
@@ -29,41 +29,68 @@ node("${nodeName}") {
     // set to true/false to switch verbose mode
     def debugMode = false	
 
-    def debug_flag = ''
-    if ("${debugMode}".toBoolean()) {
-        debug_flag = '-X'
-    }
-    
-    def extraVars = "--extra-vars bcd_stack_id=${stackName} --extra-vars bonita_version=${version}"
-
+  	def debug_flag = ''
+  	def verbose_mode= ''
+  	if ("${debugMode}".toBoolean()) {
+		debug_flag = '-X'
+		verbose_mode='-v'
+  	}
+  	
+  	// used in steps, do not change
+    def yamlFile = "${WORKSPACE}/props.yaml"
+    def bconfFolder = '/home/bonita/bonita-continuous-delivery/bconf'
+    def yamlStackProps
+    def privateDnsName
+  	
+  	def extraVars="${verbose_mode} --extra-vars bcd_stack_id=${stackName} --extra-vars bonita_version=${bonitaVersion}"
+  
   ansiColor('xterm') {
     timestamps {
-    withCredentials([file(credentialsId: 'bcdVaultPasswordFile', variable: 'ANSIBLE_VAULT_PASSWORD_FILE')]) {
+  
         stage("Checkout") {
             checkout scm
             echo "jobBaseName: $jobBaseName"
             echo "gitRepoName: $gitRepoName"
         }
 
+	
+		stage("Create stack") {
+	       		sh """
+cd ~/ansible/aws
+java -jar bonita-aws-1.0-SNAPSHOT-jar-with-dependencies.jar -c create --stack-id ${stackName} --name ${normalizedGitRepoName} --key-file ~/.ssh/presale-ci-eu-west-1.pem
+cp ${stackName}.yaml ${WORKSPACE}
+
+"""       
+                yamlStackProps = readYaml file: "${WORKSPACE}/${stackName}.yaml"
+                //echo "yaml read props: ${yamlStackProps}"
+                
+                privateDnsName = yamlStackProps.privateDnsName
+                echo "privateDnsName: [${privateDnsName}]" 
+                 
+                  
+		    }
+
+
         stage("Build LAs") {
             bcd scenario:scenarioFile, args: "${extraVars} livingapp build ${debug_flag} -p ${WORKSPACE} --environment ${bonitaConfiguration}"
         }
-
-        stage("Create stack") {
-            bcd scenario:scenarioFile, args: "${extraVars} stack create", ignore_errors: false
-        }
-
-		stage("Undeploy server") {
-            bcd scenario:scenarioFile, args: "${extraVars} stack undeploy", ignore_errors: true
-        }
         
-        stage("Deploy server") {
-            def json_path = pwd(tmp: true) + '/bcd_stack.json'
-            bcd scenario:scenarioFile, args: "${extraVars} -e bcd_stack_json=${json_path} stack deploy"
-            // set build description using bcd_stack.json file
-            def props = readJSON file: json_path
-            currentBuild.description = "<a href='${props.bonita_url}'>${props.bcd_stack_id}</a>"
-        }
+        
+	    stage("Deploy server") {
+	     	 	// ensure ip is added in known hosts
+	     	 	// keep bcd build stage with stack create, to ensure SSHd is up & running on created stack
+	     	 	sh """
+ssh-keygen -R ${privateDnsName}
+ssh -o StrictHostKeyChecking=no -i ~/.ssh/presale-ci-eu-west-1.pem  ubuntu@${privateDnsName} ls
+"""     
+	     	    sh """
+cd ~/ansible
+ansible-playbook bonita.yaml -i aws/private-inventory-${stackName}.yaml
+"""
+
+	        	def bonitaUrl = "http://${yamlStackProps.publicDnsName}:8081/bonita/login.jsp"
+	            currentBuild.description = "<a href='${bonitaUrl}'>${stackName}</a>"
+		 	}
 
         stage('Deploy LAs') {
             println "looking for :" + "target/*_${jobBaseName}-${bonitaConfiguration}-*.zip"
@@ -82,7 +109,6 @@ node("${nodeName}") {
         stage('Archive') {
             archiveArtifacts artifacts: "target/*.zip, target/*.bconf, target/*.xml, target/*.bar", fingerprint: true, flatten:true
         }
-    } // credentials
   	} // timestamps
   } // ansiColor
 } // node
