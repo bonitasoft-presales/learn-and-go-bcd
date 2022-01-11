@@ -41,6 +41,7 @@ node("${nodeName}") {
     def bconfFolder = '/home/bonita/bonita-continuous-delivery/bconf'
     def yamlStackProps
     def privateDnsName
+    def privateIpAddress
   	
   	def extraVars="${verbose_mode} --extra-vars bcd_stack_id=${stackName} --extra-vars bonita_version=${bonitaVersion}"
   
@@ -65,9 +66,9 @@ cp ${stackName}.yaml ${WORKSPACE}
                 //echo "yaml read props: ${yamlStackProps}"
                 
                 privateDnsName = yamlStackProps.privateDnsName
+                privateIpAddress = yamlStackProps.privateIpAddress
                 echo "privateDnsName: [${privateDnsName}]" 
-                 
-                  
+                echo "privateIpAddress: [${privateIpAddress}]" 
 		    }
 
 
@@ -81,6 +82,7 @@ cp ${stackName}.yaml ${WORKSPACE}
 	     	 	// keep bcd build stage with stack create, to ensure SSHd is up & running on created stack
 	     	 	sh """
 ssh-keygen -R ${privateDnsName}
+ssh-keygen -R ${privateIpAddress}
 ssh -o StrictHostKeyChecking=no -i ~/.ssh/presale-ci-eu-west-1.pem  ubuntu@${privateDnsName} ls
 """     
 	     	    sh """
