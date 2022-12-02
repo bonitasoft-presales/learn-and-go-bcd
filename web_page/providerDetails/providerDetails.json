@@ -1,9 +1,9 @@
 {
-  "modelVersion" : "2.2",
-  "previousArtifactVersion" : "2.0",
+  "modelVersion" : "2.3",
+  "previousArtifactVersion" : "2.2",
   "id" : "providerDetails",
   "name" : "providerDetails",
-  "lastUpdate" : 1637063286789,
+  "lastUpdate" : 1669997424867,
   "rows" : [
     [
       {
@@ -34,6 +34,10 @@
           "alignment" : {
             "type" : "constant",
             "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "13a79a95-13cf-4c9e-b002-798bfa5463af",

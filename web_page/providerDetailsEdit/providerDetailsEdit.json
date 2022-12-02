@@ -1,9 +1,9 @@
 {
-  "modelVersion" : "2.2",
-  "previousArtifactVersion" : "2.0",
+  "modelVersion" : "2.3",
+  "previousArtifactVersion" : "2.2",
   "id" : "providerDetailsEdit",
   "name" : "providerDetailsEdit",
-  "lastUpdate" : 1637063286935,
+  "lastUpdate" : 1669997424978,
   "rows" : [
     [
       {
@@ -149,6 +149,10 @@
                             "buttonStyle" : {
                               "type" : "constant",
                               "value" : "info"
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : true
                             }
                           },
                           "reference" : "160314c4-fb9d-4d0e-96b0-41d019e5c08a",
@@ -236,6 +240,10 @@
                             },
                             "responseStatusCode" : {
                               "type" : "variable"
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : true
                             }
                           },
                           "reference" : "3a7586f4-7839-4228-991c-77904a3f19f2",
@@ -273,6 +281,10 @@
                       "alignment" : {
                         "type" : "constant",
                         "value" : "right"
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
                     "reference" : "ee2f0cdf-6062-4caf-bbc1-0a72439f5fa6",
@@ -794,6 +806,10 @@
                   "alignment" : {
                     "type" : "constant",
                     "value" : "left"
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
                   }
                 },
                 "reference" : "263a668f-4960-4427-a708-a8a8fdbc3e1e",
@@ -935,6 +951,10 @@
                   },
                   "responseStatusCode" : {
                     "type" : "variable"
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
                   }
                 },
                 "reference" : "3a63492b-d222-4839-afe2-3f7b583662fe",
@@ -1026,6 +1046,10 @@
                   "responseStatusCode" : {
                     "type" : "variable",
                     "value" : ""
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
                   }
                 },
                 "reference" : "a744c3b9-cb69-4f0e-998f-1d1cf4a874ec",

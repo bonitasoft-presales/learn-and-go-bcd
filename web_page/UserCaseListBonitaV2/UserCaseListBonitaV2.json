@@ -1,9 +1,9 @@
 {
-  "modelVersion" : "2.2",
-  "previousArtifactVersion" : "2.0",
+  "modelVersion" : "2.3",
+  "previousArtifactVersion" : "2.2",
   "id" : "UserCaseListBonitaV2",
   "name" : "UserCaseListBonitaV2",
-  "lastUpdate" : 1637063286443,
+  "lastUpdate" : 1669997424641,
   "rows" : [
     [
       {
@@ -90,6 +90,10 @@
                 "alignment" : {
                   "type" : "constant",
                   "value" : "left"
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
                 }
               },
               "reference" : "39770d95-d80c-441a-a9b3-d7e5de85deb3",
@@ -149,6 +153,10 @@
                     "title" : {
                       "type" : "interpolation",
                       "value" : "Open cases"
+                    },
+                    "allowHTML" : {
+                      "type" : "constant",
+                      "value" : true
                     }
                   },
                   "reference" : "12a2935e-650f-4958-a899-9b8254e1a269",
@@ -252,6 +260,10 @@
                                   "value" : {
                                     "type" : "variable",
                                     "value" : "openCaseData.filters.processDefinitionId"
+                                  },
+                                  "allowHTML" : {
+                                    "type" : "constant",
+                                    "value" : true
                                   }
                                 },
                                 "reference" : "0a1a3cef-4e01-4472-a1e2-d0d5a8f4ebed",
@@ -318,6 +330,10 @@
                                   "value" : {
                                     "type" : "variable",
                                     "value" : "openCaseData.filters.sortOrder"
+                                  },
+                                  "allowHTML" : {
+                                    "type" : "constant",
+                                    "value" : true
                                   }
                                 },
                                 "reference" : "0f809f5a-4847-46ce-a86e-eef5002bfb15",
@@ -394,6 +410,10 @@
                                   "step" : {
                                     "type" : "constant",
                                     "value" : 1
+                                  },
+                                  "allowHTML" : {
+                                    "type" : "constant",
+                                    "value" : true
                                   }
                                 },
                                 "reference" : "d35ea61a-9309-41f5-a415-b524b3bcfe26",
@@ -432,6 +452,10 @@
                                   "value" : {
                                     "type" : "variable",
                                     "value" : "openCaseData.filters.startedByMe"
+                                  },
+                                  "allowHTML" : {
+                                    "type" : "constant",
+                                    "value" : true
                                   }
                                 },
                                 "reference" : "5780502c-9c82-4a5a-bb94-5ed138adf02c",
@@ -522,6 +546,10 @@
                                   },
                                   "removeItem" : {
                                     "type" : "variable"
+                                  },
+                                  "allowHTML" : {
+                                    "type" : "constant",
+                                    "value" : true
                                   }
                                 },
                                 "reference" : "b344b88b-1880-4ec5-9fd3-9559daa6e063",
@@ -703,6 +731,10 @@
                                         "buttonStyle" : {
                                           "type" : "constant",
                                           "value" : "link"
+                                        },
+                                        "allowHTML" : {
+                                          "type" : "constant",
+                                          "value" : true
                                         }
                                       },
                                       "reference" : "5691212c-f493-4797-aeef-77e839a47002",
@@ -1515,6 +1547,10 @@
                             "alignment" : {
                               "type" : "constant",
                               "value" : "center"
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : true
                             }
                           },
                           "reference" : "52a2f9c1-edae-4691-aa03-623358618b87",
@@ -1606,6 +1642,10 @@
                             },
                             "removeItem" : {
                               "type" : "variable"
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : true
                             }
                           },
                           "reference" : "430aac1a-cc94-41e3-8743-f530b1beb8a2",
@@ -1637,6 +1677,10 @@
                     "title" : {
                       "type" : "interpolation",
                       "value" : "Archived cases"
+                    },
+                    "allowHTML" : {
+                      "type" : "constant",
+                      "value" : true
                     }
                   },
                   "reference" : "92de4a79-25c1-42c0-9ca1-383844e8d956",
@@ -1740,6 +1784,10 @@
                                   "value" : {
                                     "type" : "variable",
                                     "value" : "archivedCaseData.filters.processDefinitionId"
+                                  },
+                                  "allowHTML" : {
+                                    "type" : "constant",
+                                    "value" : true
                                   }
                                 },
                                 "reference" : "daebf4c2-b336-40cf-8923-a93fc2fbadea",
@@ -1806,6 +1854,10 @@
                                   "value" : {
                                     "type" : "variable",
                                     "value" : "archivedCaseData.filters.sortOrder"
+                                  },
+                                  "allowHTML" : {
+                                    "type" : "constant",
+                                    "value" : true
                                   }
                                 },
                                 "reference" : "c9684465-8d85-45e4-962b-fdd178d00ff9",
@@ -1882,6 +1934,10 @@
                                   "step" : {
                                     "type" : "constant",
                                     "value" : 1
+                                  },
+                                  "allowHTML" : {
+                                    "type" : "constant",
+                                    "value" : true
                                   }
                                 },
                                 "reference" : "759d3abc-af1c-4f29-9f48-f4a454321916",
@@ -1920,6 +1976,10 @@
                                   "value" : {
                                     "type" : "variable",
                                     "value" : "archivedCaseData.filters.startedByMe"
+                                  },
+                                  "allowHTML" : {
+                                    "type" : "constant",
+                                    "value" : true
                                   }
                                 },
                                 "reference" : "7353ae83-654d-4765-b276-abfa496f888d",
@@ -2009,6 +2069,10 @@
                                   },
                                   "removeItem" : {
                                     "type" : "variable"
+                                  },
+                                  "allowHTML" : {
+                                    "type" : "constant",
+                                    "value" : true
                                   }
                                 },
                                 "reference" : "6bc27307-a213-48c9-b690-9264cd13703b",
@@ -2188,6 +2252,10 @@
                                         "buttonStyle" : {
                                           "type" : "constant",
                                           "value" : "link"
+                                        },
+                                        "allowHTML" : {
+                                          "type" : "constant",
+                                          "value" : true
                                         }
                                       },
                                       "reference" : "8703ca23-c81f-4e5d-a28e-879b36a7f444",
@@ -3002,6 +3070,10 @@
                             "alignment" : {
                               "type" : "constant",
                               "value" : "center"
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : true
                             }
                           },
                           "reference" : "a02038b0-14d6-4667-9720-08aec38a6202",
@@ -3093,6 +3165,10 @@
                             },
                             "removeItem" : {
                               "type" : "variable"
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : true
                             }
                           },
                           "reference" : "474e7d50-427d-49dc-8ca3-93b0081d401d",

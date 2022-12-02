@@ -1,9 +1,9 @@
 {
-  "modelVersion" : "2.2",
-  "previousArtifactVersion" : "2.0",
+  "modelVersion" : "2.3",
+  "previousArtifactVersion" : "2.2",
   "id" : "UserCaseDetailsBonitaV1",
   "name" : "UserCaseDetailsBonitaV1",
-  "lastUpdate" : 1637063286396,
+  "lastUpdate" : 1669997424607,
   "rows" : [
     [
       {
@@ -124,6 +124,10 @@
                 "buttonStyle" : {
                   "type" : "constant",
                   "value" : "primary"
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
                 }
               },
               "reference" : "c417a394-2f75-41e9-add0-c8f62c611ce1",
@@ -192,6 +196,10 @@
                 "buttonStyle" : {
                   "type" : "constant",
                   "value" : "primary"
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
                 }
               },
               "reference" : "ad3584fe-5046-40fe-a716-f21c6acaec35",
@@ -228,6 +236,10 @@
                 "alignment" : {
                   "type" : "constant",
                   "value" : "left"
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
                 }
               },
               "reference" : "8b476f54-0461-4506-a566-bef6c2780476",
@@ -264,6 +276,10 @@
                 "alignment" : {
                   "type" : "constant",
                   "value" : "left"
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
                 }
               },
               "reference" : "f1018b26-95cf-4cdf-aa09-cad608b83b04",
@@ -1078,6 +1094,10 @@
                       "buttonStyle" : {
                         "type" : "constant",
                         "value" : "link"
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
                     "reference" : "a422ddb7-46ef-47a5-b408-548d7fc78c92",
@@ -1144,6 +1164,10 @@
                       "alignment" : {
                         "type" : "constant",
                         "value" : "left"
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
                     "reference" : "2a32c37c-0181-424a-aac8-8e66a696043c",
@@ -1874,6 +1898,10 @@
                       "alignment" : {
                         "type" : "constant",
                         "value" : "left"
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
                     "reference" : "c51943bb-ca57-452f-ac57-8638bba632da",
@@ -1984,6 +2012,10 @@
                               "step" : {
                                 "type" : "constant",
                                 "value" : 1
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "3f3370d5-ec33-467f-a5cd-fe0d1e8fcd1d",
@@ -2078,6 +2110,10 @@
                               },
                               "removeItem" : {
                                 "type" : "variable"
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "d537b91b-3566-4523-9ddb-8c0bc9a75ad3",
@@ -2278,6 +2314,10 @@
                               "alignment" : {
                                 "type" : "constant",
                                 "value" : "center"
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "6dc9f402-a33b-4dfa-832c-2183b5f53d35",

@@ -1,3 +1,9 @@
+== Migration notes (December 2, 2022 at 5:10:25 PM CET)
+
+=== Updates
+
+* `bonita.version` property has been updated from `7.13.1` to `7.15.0`.
+
 == Migration notes (November 16, 2021 at 12:48:07 PM CET)
 
 === Additions

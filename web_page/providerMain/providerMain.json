@@ -1,9 +1,9 @@
 {
-  "modelVersion" : "2.2",
-  "previousArtifactVersion" : "2.0",
+  "modelVersion" : "2.3",
+  "previousArtifactVersion" : "2.2",
   "id" : "providerMain",
   "name" : "providerMain",
-  "lastUpdate" : 1637063286955,
+  "lastUpdate" : 1669997424995,
   "rows" : [
     [
       {
@@ -123,6 +123,10 @@
                       "buttonStyle" : {
                         "type" : "constant",
                         "value" : "success"
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
                     "reference" : "022fc782-ccd2-4c59-97f6-afd714ee8a31",
@@ -193,6 +197,10 @@
                       "buttonStyle" : {
                         "type" : "constant",
                         "value" : "info"
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
                     "reference" : "df2c9c8d-bf28-4466-bf2c-751b1aeddc82",
@@ -262,6 +270,10 @@
                 "returnedKey" : {
                   "type" : "interpolation",
                   "value" : "name + ' - ' + city + ' ' + country"
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
                 }
               },
               "reference" : "9b7f03ab-5759-48c2-9b31-83306fe75cac",

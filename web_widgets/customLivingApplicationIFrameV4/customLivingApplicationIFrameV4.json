@@ -1,6 +1,6 @@
 {
-  "modelVersion" : "2.2",
-  "previousArtifactVersion" : "2.0",
+  "modelVersion" : "2.3",
+  "previousArtifactVersion" : "2.2",
   "properties" : [
     {
       "label" : "Source",
@@ -11,7 +11,7 @@
   ],
   "id" : "customLivingApplicationIFrameV4",
   "name" : "livingApplicationIFrameV4",
-  "lastUpdate" : 1637063286267,
+  "lastUpdate" : 1669997424497,
   "template" : "@customLivingApplicationIFrameV4.tpl.html",
   "controller" : "@customLivingApplicationIFrameV4.ctrl.js",
   "description" : "LivingApplicationIFrameV4 display the pages targeted by the LivingApplicationMenu.",

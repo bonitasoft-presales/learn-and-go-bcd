@@ -1,9 +1,9 @@
 {
-  "modelVersion" : "2.2",
-  "previousArtifactVersion" : "2.0",
+  "modelVersion" : "2.3",
+  "previousArtifactVersion" : "2.2",
   "id" : "accountFormv13",
   "name" : "accountFormv13",
-  "lastUpdate" : 1637063286509,
+  "lastUpdate" : 1669997424683,
   "rows" : [
     [
       {
@@ -81,6 +81,10 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
                 }
               },
               "reference" : "05526cab-0174-4f37-aacc-c22d55c3bf38",
@@ -257,6 +261,10 @@
                   "hidden" : {
                     "type" : "constant",
                     "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
                   }
                 },
                 "reference" : "68513428-fd5d-4d17-9ed5-c934dd9524ab",
@@ -410,6 +418,10 @@
                         "step" : {
                           "type" : "constant",
                           "value" : 1
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "673df965-fca8-4c79-962d-440ad26eb2a2",
@@ -509,6 +521,10 @@
                         "step" : {
                           "type" : "constant",
                           "value" : 1
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "d0b43cb8-f309-45ae-a59e-ac14e25133d6",
@@ -552,6 +568,10 @@
                   "formInput" : {
                     "type" : "variable",
                     "value" : "formInput"
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
                   }
                 },
                 "reference" : "29d1541a-41fa-4633-9159-387d5a20ca77",
@@ -657,6 +677,10 @@
                   "modalId" : {
                     "type" : "constant",
                     "value" : ""
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
                   }
                 },
                 "reference" : "4d7ae34e-214b-4b2e-89ed-2906ad46ab49",

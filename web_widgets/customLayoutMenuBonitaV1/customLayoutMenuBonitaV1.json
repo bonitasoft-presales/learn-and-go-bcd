@@ -1,6 +1,6 @@
 {
-  "modelVersion" : "2.2",
-  "previousArtifactVersion" : "2.0",
+  "modelVersion" : "2.3",
+  "previousArtifactVersion" : "2.2",
   "properties" : [
     {
       "label" : "URL targeted by the menu",
@@ -29,7 +29,7 @@
   ],
   "id" : "customLayoutMenuBonitaV1",
   "name" : "BonitaLayoutMenu",
-  "lastUpdate" : 1637063286261,
+  "lastUpdate" : 1669997424493,
   "template" : "@customLayoutMenuBonitaV1.tpl.html",
   "controller" : "@customLayoutMenuBonitaV1.ctrl.js",
   "description" : "This is the default bonita portal menu.",
