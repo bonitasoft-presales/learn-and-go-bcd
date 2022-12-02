@@ -58,7 +58,7 @@ node("${nodeName}") {
 		stage("Create stack") {
 	       		sh """
 cd ~/ansible/aws
-java -jar bonita-aws-1.0-SNAPSHOT-jar-with-dependencies.jar -c create --stack-id ${stackName} --name ${normalizedGitRepoName} --key-file ~/.ssh/presale-ci-eu-west-1.pem
+java -jar bonita-aws-1.3-jar-with-dependencies.jar -c create --stack-id ${stackName} --name ${normalizedGitRepoName} --key-file ~/.ssh/presale-ci-eu-west-1.pem
 cp ${stackName}.yaml ${WORKSPACE}
 
 """       
