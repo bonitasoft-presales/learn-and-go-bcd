@@ -1,9 +1,9 @@
 {
-  "modelVersion" : "2.2",
-  "previousArtifactVersion" : "2.0",
+  "modelVersion" : "2.3",
+  "previousArtifactVersion" : "2.2",
   "id" : "providerDetailsRW",
   "name" : "providerDetailsRW",
-  "lastUpdate" : 1637063286777,
+  "lastUpdate" : 1669997424861,
   "rows" : [
     [
       {
@@ -99,6 +99,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "6f193995-c9e4-452d-95c9-fe899c82e7e1",
@@ -198,6 +202,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "5d03539b-298e-440d-bf4d-e332c116053f",
@@ -262,6 +270,10 @@
           "value" : {
             "type" : "variable",
             "value" : "provType"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "e609018a-0043-4944-8acd-9a4771aa72a5",
@@ -326,6 +338,10 @@
           "value" : {
             "type" : "variable",
             "value" : "provPriority"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "83417299-9f5a-4fdc-b665-993655808c03",
@@ -427,6 +443,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "5ba65675-411d-49db-af5c-d00e716c64a3",
@@ -526,6 +546,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "423bf41e-a0ce-4ae5-b46f-643c6f6539da",
@@ -653,6 +677,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "7f2a4369-aa3b-4c97-8f10-910723c47e2b",
@@ -752,6 +780,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "18366d21-47b1-4994-baf2-3a547e53793a",
@@ -853,6 +885,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "9e278896-76b6-4e2d-a383-09ca44e0dc6e",
@@ -952,6 +988,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "e03b9751-40c0-4131-a3e7-237392e45225",
@@ -1020,6 +1060,10 @@
           "value" : {
             "type" : "variable",
             "value" : "currency"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "56e13256-d7c7-4d1d-9dfd-7a8f72e3fcd3",
@@ -1119,6 +1163,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "43383918-a169-4e49-a769-abff13cc5e0f",
@@ -1159,6 +1207,10 @@
           "value" : {
             "type" : "variable",
             "value" : "provider.isExtranetAllowed"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "0ef7fb7e-a462-4f8f-9be6-956582bbc225",
@@ -1195,6 +1247,10 @@
           "alignment" : {
             "type" : "constant",
             "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "44ca0506-5f69-40cf-b2f5-8b847895c3fa",
@@ -1272,6 +1328,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "6b55bb6c-bf82-4bf9-a1a9-bd75c24db812",
@@ -1347,6 +1407,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "16175ea6-a888-469e-b112-b9482e90f2a8",
@@ -1422,6 +1486,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "d5d76b78-0075-4c60-8b68-a0a6b7cef507",
@@ -1461,6 +1529,10 @@
               "title" : {
                 "type" : "interpolation",
                 "value" : "Contacts"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
               }
             },
             "reference" : "41cbc545-1c10-411a-8bba-70d2770bf52c",
@@ -1562,6 +1634,10 @@
               "title" : {
                 "type" : "interpolation",
                 "value" : "Bank Account Details"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
               }
             },
             "reference" : "93405a88-e58a-470d-b37e-d2fa3328facc",
@@ -1675,6 +1751,10 @@
                       "step" : {
                         "type" : "constant",
                         "value" : 1
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
                     "reference" : "d4284abb-6845-4d93-8aff-18ff1699d736",
@@ -1750,6 +1830,10 @@
                       "step" : {
                         "type" : "constant",
                         "value" : 1
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
                     "reference" : "db3f0465-165c-4e86-af49-70b070d03365",
@@ -1827,6 +1911,10 @@
                       "step" : {
                         "type" : "constant",
                         "value" : 1
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
                     "reference" : "ba4c3b90-dac0-49f0-ac09-180809f7215e",
@@ -1902,6 +1990,10 @@
                       "step" : {
                         "type" : "constant",
                         "value" : 1
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
                     "reference" : "581e197c-9152-4042-afc4-b6cb47c6cf29",
@@ -1921,6 +2013,10 @@
               "title" : {
                 "type" : "interpolation",
                 "value" : "Contract"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
               }
             },
             "reference" : "cd421448-cd66-4895-9704-3d8271f16a45",
@@ -2034,6 +2130,10 @@
                       "step" : {
                         "type" : "constant",
                         "value" : 1
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
                     "reference" : "b08bcb76-30b7-4e31-b867-aced84610546",
@@ -2109,6 +2209,10 @@
                       "step" : {
                         "type" : "constant",
                         "value" : 1
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
                     "reference" : "d1b1c0f0-2830-40c4-b2b6-ee3d12504b51",
@@ -2175,6 +2279,10 @@
                       "todayLabel" : {
                         "type" : "interpolation",
                         "value" : "Today"
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
                     "reference" : "18c85964-b0fb-4789-990e-9359c87c8744",

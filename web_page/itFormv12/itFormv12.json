@@ -1,9 +1,9 @@
 {
-  "modelVersion" : "2.2",
-  "previousArtifactVersion" : "2.0",
+  "modelVersion" : "2.3",
+  "previousArtifactVersion" : "2.2",
   "id" : "itFormv12",
   "name" : "itFormv12",
-  "lastUpdate" : 1637063286555,
+  "lastUpdate" : 1669997424712,
   "rows" : [
     [
       {
@@ -68,6 +68,10 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
                 }
               },
               "reference" : "dea56a89-cb88-4eb5-883c-7698ae75303b",
@@ -317,6 +321,10 @@
                         "value" : {
                           "type" : "variable",
                           "value" : "formInput.itInput.loginExtranet"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "193d74da-1f6e-49bd-a1ac-6fd951d7eb9c",
@@ -360,6 +368,10 @@
                   "formInput" : {
                     "type" : "variable",
                     "value" : "formInput"
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
                   }
                 },
                 "reference" : "436423c5-6997-4355-8115-5aea49b6fdd1",
@@ -465,6 +477,10 @@
                   "modalId" : {
                     "type" : "constant",
                     "value" : ""
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
                   }
                 },
                 "reference" : "4993d9e1-c523-4333-8653-311d4732d747",

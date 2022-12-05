@@ -1,7 +1,7 @@
 @Library('github.com/bonitasoft-presales/bonita-jenkins-library@1.0.1') _
 
-def bonitaVersion = "7.13.1"
-def bonitaVersionShortened = "7131"
+def bonitaVersion = "7.15.0"
+def bonitaVersionShortened = "7150"
 def nodeName = "bcd-${bonitaVersionShortened}"
 
 node("${nodeName}") {
@@ -58,7 +58,7 @@ node("${nodeName}") {
 		stage("Create stack") {
 	       		sh """
 cd ~/ansible/aws
-java -jar bonita-aws-1.0-SNAPSHOT-jar-with-dependencies.jar -c create --stack-id ${stackName} --name ${normalizedGitRepoName} --key-file ~/.ssh/presale-ci-eu-west-1.pem
+java -jar bonita-aws-1.3-jar-with-dependencies.jar -c create --stack-id ${stackName} --name ${normalizedGitRepoName} --key-file ~/.ssh/presale-ci-eu-west-1.pem
 cp ${stackName}.yaml ${WORKSPACE}
 
 """       
@@ -87,7 +87,7 @@ ssh -o StrictHostKeyChecking=no -i ~/.ssh/presale-ci-eu-west-1.pem  ubuntu@${pri
 """     
 	     	    sh """
 cd ~/ansible
-ansible-playbook bonita.yaml -i aws/private-inventory-${stackName}.yaml
+ansible-playbook bonita-${bonitaVersionShortened}.yaml -i aws/private-inventory-${stackName}.yaml
 """
 
 	        	def bonitaUrl = "http://${yamlStackProps.publicDnsName}:8081/bonita/login.jsp"

@@ -1,9 +1,9 @@
 {
-  "modelVersion" : "2.2",
-  "previousArtifactVersion" : "2.0",
+  "modelVersion" : "2.3",
+  "previousArtifactVersion" : "2.2",
   "id" : "newProviderForm",
   "name" : "newProviderForm",
-  "lastUpdate" : 1637063286651,
+  "lastUpdate" : 1669997424780,
   "rows" : [
     [
       {
@@ -90,6 +90,10 @@
                   "hidden" : {
                     "type" : "constant",
                     "value" : false
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
                   }
                 },
                 "reference" : "f0fd89d5-411b-4e4c-9332-f6eca42e16c9",
@@ -248,6 +252,10 @@
                         "step" : {
                           "type" : "constant",
                           "value" : 1
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "a6832084-b029-48e9-b60e-392531ac2cb2",
@@ -347,6 +355,10 @@
                         "step" : {
                           "type" : "constant",
                           "value" : 1
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "07479291-4a66-47ca-80df-e8972ddf262e",
@@ -420,6 +432,10 @@
                         "value" : {
                           "type" : "variable",
                           "value" : "formInput.providerInput.provType"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "bea284c3-c4ff-4f04-9c92-938d6c37d509",
@@ -488,6 +504,10 @@
                         "value" : {
                           "type" : "variable",
                           "value" : "formInput.providerInput.provPriority"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "d591536e-0f54-4d38-acbc-11ee00a4c440",
@@ -589,6 +609,10 @@
                         "step" : {
                           "type" : "constant",
                           "value" : 1
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "156e393a-fa38-4ece-a254-1bdabdad0e12",
@@ -688,6 +712,10 @@
                         "step" : {
                           "type" : "constant",
                           "value" : 1
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "e1869e2b-3376-4d40-9c16-504238fb8075",
@@ -814,6 +842,10 @@
                         "step" : {
                           "type" : "constant",
                           "value" : 1
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "93441567-c990-48c9-af92-773bc4bf1b20",
@@ -913,6 +945,10 @@
                         "step" : {
                           "type" : "constant",
                           "value" : 1
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "131c4006-e7af-4710-9516-cd73fa32ceff",
@@ -1014,6 +1050,10 @@
                         "step" : {
                           "type" : "constant",
                           "value" : 1
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "9a55d273-ea58-4827-9886-2bcc8f4d61a1",
@@ -1113,6 +1153,10 @@
                         "step" : {
                           "type" : "constant",
                           "value" : 1
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "0b0b6eac-72ef-4ce5-9a2c-db61fd9de830",
@@ -1181,6 +1225,10 @@
                         "value" : {
                           "type" : "variable",
                           "value" : "formInput.providerInput.currency"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "e4d808fe-a7d3-4be6-ba19-847b53de7ba1",
@@ -1280,6 +1328,10 @@
                         "step" : {
                           "type" : "constant",
                           "value" : 1
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "9f07317e-9363-4e4d-903e-795a58964559",
@@ -1348,6 +1400,10 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "b9596069-25e1-49da-850d-33da21c99a80",
@@ -1407,6 +1463,10 @@
                             "title" : {
                               "type" : "interpolation",
                               "value" : "Contacts"
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : true
                             }
                           },
                           "reference" : "8e3198ff-8036-4a72-a63d-579257266415",
@@ -1578,6 +1638,10 @@
                                     },
                                     "responseStatusCode" : {
                                       "type" : "variable"
+                                    },
+                                    "allowHTML" : {
+                                      "type" : "constant",
+                                      "value" : true
                                     }
                                   },
                                   "reference" : "0ae68402-d680-4d86-8be7-9aeefc48fac2",
@@ -1609,6 +1673,10 @@
                             "title" : {
                               "type" : "interpolation",
                               "value" : "Bank Account Details"
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : true
                             }
                           },
                           "reference" : "04bc029d-5b8b-4167-b97b-aaba8093fccb",
@@ -1775,6 +1843,10 @@
                                           "step" : {
                                             "type" : "constant",
                                             "value" : 1
+                                          },
+                                          "allowHTML" : {
+                                            "type" : "constant",
+                                            "value" : true
                                           }
                                         },
                                         "reference" : "f3caf25d-9d69-44a7-a526-ba56338f475a",
@@ -1874,6 +1946,10 @@
                                           "step" : {
                                             "type" : "constant",
                                             "value" : 1
+                                          },
+                                          "allowHTML" : {
+                                            "type" : "constant",
+                                            "value" : true
                                           }
                                         },
                                         "reference" : "b26966ea-435a-4434-bc5d-058e78e4d1ed",
@@ -1973,6 +2049,10 @@
                                           "step" : {
                                             "type" : "constant",
                                             "value" : 1
+                                          },
+                                          "allowHTML" : {
+                                            "type" : "constant",
+                                            "value" : true
                                           }
                                         },
                                         "reference" : "86db5491-b168-48fd-a9f7-c63668c04f5a",
@@ -2074,6 +2154,10 @@
                                           "step" : {
                                             "type" : "constant",
                                             "value" : 1
+                                          },
+                                          "allowHTML" : {
+                                            "type" : "constant",
+                                            "value" : true
                                           }
                                         },
                                         "reference" : "af7a5dc7-d11c-4c6a-b5f9-940d3327a54a",
@@ -2131,6 +2215,10 @@
                                           "errorContent" : {
                                             "type" : "variable",
                                             "value" : ""
+                                          },
+                                          "allowHTML" : {
+                                            "type" : "constant",
+                                            "value" : true
                                           }
                                         },
                                         "reference" : "fcf892eb-85d5-4836-8a2c-c24c9b644b01",
@@ -2165,6 +2253,10 @@
                             "title" : {
                               "type" : "interpolation",
                               "value" : "Contracts"
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : true
                             }
                           },
                           "reference" : "797b7cde-17c4-450f-bbd6-5a283c789848",
@@ -2331,6 +2423,10 @@
                                           "step" : {
                                             "type" : "constant",
                                             "value" : 1
+                                          },
+                                          "allowHTML" : {
+                                            "type" : "constant",
+                                            "value" : true
                                           }
                                         },
                                         "reference" : "c6a12147-5dc5-48ba-9d52-0252e0d44f7e",
@@ -2430,6 +2526,10 @@
                                           "step" : {
                                             "type" : "constant",
                                             "value" : 1
+                                          },
+                                          "allowHTML" : {
+                                            "type" : "constant",
+                                            "value" : true
                                           }
                                         },
                                         "reference" : "82e7e939-12d5-4d28-848f-c200beb8386f",
@@ -2525,6 +2625,10 @@
                                           "readOnly" : {
                                             "type" : "constant",
                                             "value" : false
+                                          },
+                                          "allowHTML" : {
+                                            "type" : "constant",
+                                            "value" : true
                                           }
                                         },
                                         "reference" : "d3ca89b5-3c7c-4c2e-a001-923730f06345",
@@ -2582,6 +2686,10 @@
                                           "errorContent" : {
                                             "type" : "variable",
                                             "value" : ""
+                                          },
+                                          "allowHTML" : {
+                                            "type" : "constant",
+                                            "value" : true
                                           }
                                         },
                                         "reference" : "a965d4ce-93fc-44ae-b0e8-94ce6d4ab77c",
@@ -2634,6 +2742,10 @@
                   "formInput" : {
                     "type" : "variable",
                     "value" : "formInput"
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
                   }
                 },
                 "reference" : "3a2d3de8-182e-409f-919c-d4578ff4a765",
@@ -2747,6 +2859,10 @@
                   "responseStatusCode" : {
                     "type" : "variable",
                     "value" : ""
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
                   }
                 },
                 "reference" : "0ee2fa32-bb8f-4e0e-a392-b46c9f4f31ef",
@@ -2944,6 +3060,10 @@
                               "value" : {
                                 "type" : "variable",
                                 "value" : "$item.title"
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "9d3b3f73-ae7b-4e4e-9eb1-5a326199f7f6",
@@ -3043,6 +3163,10 @@
                               "step" : {
                                 "type" : "constant",
                                 "value" : 1
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "81ad53a0-7683-4dda-a7a3-de9314c489e4",
@@ -3142,6 +3266,10 @@
                               "step" : {
                                 "type" : "constant",
                                 "value" : 1
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "d05ddbb4-b1a2-4239-a240-4d12b66b6ebb",
@@ -3241,6 +3369,10 @@
                               "step" : {
                                 "type" : "constant",
                                 "value" : 1
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "6b2e6770-26cd-43cb-8af5-cece31110184",
@@ -3313,6 +3445,10 @@
                               "value" : {
                                 "type" : "variable",
                                 "value" : "$item.contactType"
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "e69565a8-fd5d-4ff1-96ea-897c87a9391d",
@@ -3412,6 +3548,10 @@
                               "step" : {
                                 "type" : "constant",
                                 "value" : 1
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "dcdb8c73-b334-4f75-9443-a8e769da65bf",
@@ -3511,6 +3651,10 @@
                               "step" : {
                                 "type" : "constant",
                                 "value" : 1
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "fce964d9-b30e-4a12-9733-d16ad45eddc9",
@@ -3610,6 +3754,10 @@
                               "step" : {
                                 "type" : "constant",
                                 "value" : 1
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "cb284411-0580-4d15-8c85-99b6af3915c8",
@@ -3702,6 +3850,10 @@
                         },
                         "responseStatusCode" : {
                           "type" : "variable"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "6bdaffe6-ea51-4354-a8fa-c7c835b22c63",
@@ -3794,6 +3946,10 @@
                   },
                   "responseStatusCode" : {
                     "type" : "variable"
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
                   }
                 },
                 "reference" : "4d9787dc-7bb9-4f90-947d-e022f0a91378",
@@ -3882,6 +4038,10 @@
                   },
                   "responseStatusCode" : {
                     "type" : "variable"
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
                   }
                 },
                 "reference" : "c783f78f-8d6a-4681-9abc-e9de0e7aa560",

@@ -1,9 +1,9 @@
 {
-  "modelVersion" : "2.2",
-  "previousArtifactVersion" : "2.0",
+  "modelVersion" : "2.3",
+  "previousArtifactVersion" : "2.2",
   "id" : "newForm",
   "name" : "newForm",
-  "lastUpdate" : 1637063286588,
+  "lastUpdate" : 1669997424737,
   "rows" : [
     [
       {
@@ -68,6 +68,10 @@
                 "class" : {
                   "type" : "constant",
                   "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.TitleWidget"
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
                 }
               },
               "reference" : "985f4899-81d9-4317-8587-2e909cd9cfc8",
@@ -205,6 +209,10 @@
                   "class" : {
                     "type" : "constant",
                     "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.TitleWidget"
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
                   }
                 },
                 "reference" : "4e4c69e9-85c5-4863-915b-dfeb60af7720",
@@ -406,6 +414,10 @@
                         "step" : {
                           "type" : "constant",
                           "value" : 1
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "9394475d-e21e-432b-943c-ca8c4b96f0f7",
@@ -472,6 +484,10 @@
                         "value" : {
                           "type" : "variable",
                           "value" : "provider.alias"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "b78276e1-a6f9-4f5a-a6c5-325cafe7915d",
@@ -1088,6 +1104,10 @@
                         "class" : {
                           "type" : "constant",
                           "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.CheckboxWidget"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "cae158f6-c1df-4636-b833-939fb61edd1f",
@@ -1368,6 +1388,10 @@
                         "class" : {
                           "type" : "constant",
                           "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.CheckboxWidget"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "1d213812-e045-4cf7-8117-a305d73acf17",
@@ -1763,6 +1787,10 @@
                         "class" : {
                           "type" : "constant",
                           "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.TitleWidget"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "36b8bb42-7436-4cb5-a116-2b6d3e378032",
@@ -2437,6 +2465,10 @@
                         "class" : {
                           "type" : "constant",
                           "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.TitleWidget"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "065b79c1-d860-481d-91e5-9316c129303c",
@@ -3056,6 +3088,10 @@
                         "class" : {
                           "type" : "constant",
                           "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.TitleWidget"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "4a0cf6cb-c9b4-42f2-a37a-feb0ef00dead",
@@ -3671,6 +3707,10 @@
                         "class" : {
                           "type" : "constant",
                           "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.CheckboxWidget"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "9cd8cc9d-943f-4f55-bac6-c9ecee4f42d9",
@@ -3727,6 +3767,10 @@
                         "class" : {
                           "type" : "constant",
                           "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.CheckboxWidget"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "8bb0a6c9-ba94-41cd-a307-6c2e97f41c4d",
@@ -3818,6 +3862,10 @@
                   "class" : {
                     "type" : "constant",
                     "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.ButtonWidget"
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : true
                   }
                 },
                 "reference" : "ababb3aa-dea1-413a-bca9-8e3f022a2ef3",

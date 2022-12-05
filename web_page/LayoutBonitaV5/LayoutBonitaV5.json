@@ -1,9 +1,9 @@
 {
-  "modelVersion" : "2.2",
-  "previousArtifactVersion" : "2.0",
+  "modelVersion" : "2.3",
+  "previousArtifactVersion" : "2.2",
   "id" : "LayoutBonitaV5",
   "name" : "BonitaLayoutV5",
-  "lastUpdate" : 1637063286359,
+  "lastUpdate" : 1669997424581,
   "rows" : [
     [
       {
@@ -161,6 +161,10 @@
                       "buttonStyle" : {
                         "type" : "constant",
                         "value" : "link"
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
                     "reference" : "90561f46-80ea-4864-aa7f-5a117aee2bb9",
@@ -277,6 +281,10 @@
                             "assign" : {
                               "type" : "constant",
                               "value" : false
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : true
                             }
                           },
                           "reference" : "d8824a0f-860e-490c-8ca1-e8fac6681921",
@@ -365,6 +373,10 @@
                             "assign" : {
                               "type" : "constant",
                               "value" : false
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : true
                             }
                           },
                           "reference" : "150555db-2bcf-4189-b199-5c34528d0c2f",
@@ -456,6 +468,10 @@
                             },
                             "removeItem" : {
                               "type" : "variable"
+                            },
+                            "allowHTML" : {
+                              "type" : "constant",
+                              "value" : true
                             }
                           },
                           "reference" : "e08f6a07-1a25-439b-8bfe-6a8668ce78f2",
@@ -547,6 +563,10 @@
                       "assign" : {
                         "type" : "constant",
                         "value" : false
+                      },
+                      "allowHTML" : {
+                        "type" : "constant",
+                        "value" : true
                       }
                     },
                     "reference" : "4c5989ff-b12c-4742-bda1-baa9ecdafa22",
@@ -813,6 +833,10 @@
                         "alignment" : {
                           "type" : "constant",
                           "value" : "left"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "078bce10-17ca-4dd8-82b8-66180b75fbda",
@@ -956,6 +980,10 @@
                               "alignment" : {
                                 "type" : "constant",
                                 "value" : "left"
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "4e5703ca-93a1-47b3-9f9f-3b39971a2b8f",
@@ -1126,6 +1154,10 @@
                               "alignment" : {
                                 "type" : "constant",
                                 "value" : "left"
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "eb05271f-6b6a-4e58-b623-d552d1129c87",
@@ -1194,6 +1226,10 @@
                               "value" : {
                                 "type" : "variable",
                                 "value" : "selectedLanguage"
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "151aa916-30b2-4757-936d-811fd48995d0",
@@ -1284,6 +1320,10 @@
                               "assign" : {
                                 "type" : "constant",
                                 "value" : false
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "4939b47c-a22f-48c0-9b29-ea7576e47132",
@@ -1408,6 +1448,10 @@
                         "assign" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "bd53a803-dc45-49fd-8fc5-1e5a83daaa7a",
@@ -1496,6 +1540,10 @@
                         "assign" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "28b64920-062d-49d2-a76d-37205135a2f3",
@@ -1606,6 +1654,10 @@
                         "alignment" : {
                           "type" : "constant",
                           "value" : "left"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "0a62175c-8427-4059-8116-f2b3c54fca06",
@@ -1701,6 +1753,10 @@
                               "value" : {
                                 "type" : "variable",
                                 "value" : "selectedProfile"
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "7a52a8b8-7e23-4983-bc17-91b19e99c9ba",
@@ -1777,6 +1833,10 @@
                               "step" : {
                                 "type" : "constant",
                                 "value" : 1
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : true
                               }
                             },
                             "reference" : "d648505d-c967-499c-b96d-f36c800a65fc",
@@ -1846,6 +1906,10 @@
                         "alignment" : {
                           "type" : "constant",
                           "value" : "center"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "0835d6e6-6d89-4f9d-a245-aafa304f0ba3",
@@ -1996,6 +2060,10 @@
                                           "buttonStyle" : {
                                             "type" : "constant",
                                             "value" : "link"
+                                          },
+                                          "allowHTML" : {
+                                            "type" : "constant",
+                                            "value" : true
                                           }
                                         },
                                         "reference" : "fbaa83c3-9292-478f-be5a-eee1352931b1",
@@ -2065,6 +2133,10 @@
                                           "buttonStyle" : {
                                             "type" : "constant",
                                             "value" : "link"
+                                          },
+                                          "allowHTML" : {
+                                            "type" : "constant",
+                                            "value" : true
                                           }
                                         },
                                         "reference" : "6aa8edfb-91b8-45b1-81e4-65299f03dbfa",
@@ -2246,6 +2318,10 @@
                         "assign" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : true
                         }
                       },
                       "reference" : "e1ca0f27-599a-43ed-84a9-596b17a2fffc",

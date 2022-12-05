@@ -1,6 +1,6 @@
 {
-  "modelVersion" : "2.2",
-  "previousArtifactVersion" : "2.0",
+  "modelVersion" : "2.3",
+  "previousArtifactVersion" : "2.2",
   "properties" : [
     {
       "label" : "Value",
@@ -20,7 +20,7 @@
   ],
   "id" : "customReadOnlyCheckBox",
   "name" : "readOnlyCheckBox",
-  "lastUpdate" : 1637063286744,
+  "lastUpdate" : 1669997424842,
   "template" : "@customReadOnlyCheckBox.tpl.html",
   "controller" : "@customReadOnlyCheckBox.ctrl.js",
   "custom" : true,

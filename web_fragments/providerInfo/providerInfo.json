@@ -1,9 +1,9 @@
 {
-  "modelVersion" : "2.2",
-  "previousArtifactVersion" : "2.0",
+  "modelVersion" : "2.3",
+  "previousArtifactVersion" : "2.2",
   "id" : "providerInfo",
   "name" : "providerInfo",
-  "lastUpdate" : 1637063286494,
+  "lastUpdate" : 1669997424673,
   "rows" : [
     [
       {
@@ -34,6 +34,10 @@
           "alignment" : {
             "type" : "constant",
             "value" : "center"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "148629b1-f731-48ea-a16a-60dd57cf47c0",
@@ -111,6 +115,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "b076ddaa-7d99-45ff-abb9-f49efbb79c2c",
@@ -186,6 +194,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "80536a3e-677a-4c86-aeb4-e05732fe0bef",
@@ -261,6 +273,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "571d1247-1166-4353-8933-863d21a9bb50",
@@ -336,6 +352,10 @@
           "step" : {
             "type" : "constant",
             "value" : 1
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "70f89105-623a-4e60-8fe3-a5637b6e66cb",
@@ -372,6 +392,10 @@
           "alignment" : {
             "type" : "constant",
             "value" : "center"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
           }
         },
         "reference" : "03839940-a235-4751-89e4-c91d64f31624",
