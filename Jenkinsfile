@@ -1,7 +1,7 @@
 @Library('github.com/bonitasoft-presales/bonita-jenkins-library@1.0.1') _
 
-def bonitaVersion = "7.13.1"
-def bonitaVersionShortened = "7131"
+def bonitaVersion = "7.15.0"
+def bonitaVersionShortened = "7150"
 def nodeName = "bcd-${bonitaVersionShortened}"
 
 node("${nodeName}") {
