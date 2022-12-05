@@ -87,7 +87,7 @@ ssh -o StrictHostKeyChecking=no -i ~/.ssh/presale-ci-eu-west-1.pem  ubuntu@${pri
 """     
 	     	    sh """
 cd ~/ansible
-ansible-playbook bonita.yaml -i aws/private-inventory-${stackName}.yaml
+ansible-playbook bonita-${bonitaVersionShortened}.yaml -i aws/private-inventory-${stackName}.yaml
 """
 
 	        	def bonitaUrl = "http://${yamlStackProps.publicDnsName}:8081/bonita/login.jsp"
